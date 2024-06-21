@@ -1,0 +1,140 @@
+/*
+    Document   : lazyload.less
+    Created on : 31/07/2015
+    Author     : Ralf da Rocha
+    Description: Estilos do plugin lazyload
+*/
+.lazyload {
+  .block();
+  .relative();
+  min-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+
+  .lazyload-image {
+    .iblock(middle);
+    .opacity(1);
+    .postl(0, 0);
+    // .relative();
+    .transition(opacity 0.5s cubic-bezier(.69, .69, .39, .99) .2s);
+    z-index: 2;
+  }
+
+  img.lazyload-image {
+    width: 100%;
+  }
+
+  div.lazyload-image {
+    background-position: 50% 50%;
+    .background-size(cover);
+    .dim(100%, 100%);
+  }
+
+  .preloader {
+    width: 100%;
+    position: relative;
+
+    &:after {
+
+      /** Preloader com Font-Awesome (descomente para usar) **/
+      // content: @fa-var-refresh ;
+      // .animation(fa-spin 2s infinite linear);
+      // .animation-play-state(paused);
+      // font: normal normal normal @fa-font-size-base/1 FontAwesome;
+      // .fsize(15px);
+      // margin-top: -8px;
+      // margin-left: -8px;
+      // .transition(opacity 0.3s cubic-bezier(.69,.69,.39,.99), visibility 0s linear .3s);
+      /** ------- **/
+
+      /** Preloader com Gif (default | comente para usar Font-awesome) **/
+      content: url('@{svg}loader.svg');
+      .transform(scale(0) translate(-50%, -50%));
+      .transition(opacity 0.3s cubic-bezier(.69, .69, .39, .99), transform 0.3s, visibility 0s linear .3s);
+      .transform-origin(0, 0);
+      /** ------- **/
+      .opacity(0);
+      .postl(50%, 50%);
+      visibility: hidden;
+      z-index: 1;
+    }
+  }
+
+  &.loading {
+    .lazyload-image {
+      .opacity(0);
+    }
+
+    .preloader {
+      &:after {
+        .opacity(1);
+        /** Preloader com Font-Awesome (descomente para usar) **/
+        // .animation-play-state(running);
+        /** ------- **/
+
+        /** Preloader com Gif (default | comente para usar Font-awesome) **/
+        .transform(scale(1) translate(-50%, -50%));
+        .transform-origin(0, 0);
+        /***/
+        visibility: visible;
+        .transition-delay(0s);
+      }
+    }
+  }
+
+  &.loaded {
+    .lazyload-image {
+      position: relative;
+    }
+
+    .preloader {}
+  }
+}
+
+.lazyload-slick {
+  position: relative;
+
+  img {
+    .opacity(1);
+    .transition(opacity 0.5s cubic-bezier(.69, .69, .39, .99) .2s);
+
+    &.slick-loading {
+      .opacity(0);
+
+      ~.loader {
+        .opacity(1);
+        .scale(1);
+        visibility: visible;
+        .transition-delay(0s);
+      }
+    }
+  }
+
+  .loader {
+    background: url('@{img}preloader.gif') no-repeat 50% 50%;
+    .dim(100%, 100%);
+    .opacity(0);
+    .postl(0, 0);
+    .scale(0);
+    visibility: hidden;
+    .transition(opacity 0.3s cubic-bezier(.69, .69, .39, .99), transform 0.3s, visibility 0s linear .3s);
+  }
+}
+
+[data-background] {
+
+  &,
+  .lazyload-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+}

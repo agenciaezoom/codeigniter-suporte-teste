@@ -1,0 +1,195 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.fileupload-buttonbar{
+    .iblock();
+}
+
+.fileinput-button {
+    .relative();
+    overflow: hidden;
+}
+.fileinput-button input {
+    .postr(0,0);
+    margin: 0;
+    .opacity(0);
+    font-size: 200px;
+    direction: ltr;
+    .pointer();
+}
+.delete-all{
+    margin: 0 20px 0 4px;
+}
+.template-upload{
+    .iblock();
+    .relative();
+    padding: 13px 10px 10px;
+    margin: 15px;
+    width: 194px;
+    background: #fff;
+    border: 1px solid #8BBF61;
+    .box-shadow(0 0 5px 2px rgba(0,0,0,.1));
+    .border-radius(3px);
+
+    &.old {
+        padding-top: 10px;
+        border: 0 none;
+    }
+    &.new {
+        .progress {
+            margin-bottom: 3px;
+            background-color: transparent;
+            top: 0;
+        }
+        .preview {
+            width: 175px;
+            margin-bottom: 6px;
+
+            .config-file-bt {
+                right: 3px;
+                bottom: 6px;
+            }
+        }
+    }
+    .file-preview {
+        .dim(170px, 170px);
+        line-height: 140px;
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .delete,
+    .cancel{
+        .posbr(11px,10px);
+        font-size: 12px;
+    }
+    .checkbox-delete-multiple {
+        font-size: 13px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .preview{
+        .block();
+        .relative();
+        overflow: hidden;
+
+        canvas {
+            .border-radius(5px);
+            padding: 1px;
+            border: 1px solid #EFEFEF;
+        }
+        label{
+            .block();
+            .posbl(1px,1px);
+            .rgba(0.6,255,255,255);
+            width: 170px;
+            margin: 0;
+            padding: 0 10px;
+            line-height: 25px;
+            text-align: center;
+            .pointer();
+        }
+        .config-file-bt, .config-file-close, .config-file-download {
+            .dim(27px, 27px);
+            .posbr(1px, 1px);
+            .border-radius(5px 0 0);
+            .transition(.35s, color);
+            display: block;
+            cursor: pointer;
+            background-color: white;
+            line-height: 25px;
+            text-align: center;
+            z-index: 1;
+            color: #525252;
+
+            &:hover {
+                color: #98777B;
+            }
+        }
+        .config-file-close {
+            .posbr(0, 0);
+            .dim(26px, 26px);
+            border: 0 none;
+            border-left: 1px solid #ececec;
+            border-top: 1px solid #ececec;
+        }
+        .config-file-download {
+            .posbr(0, 25px);
+            .dim(26px, 26px);
+            border: 0 none;
+            border-left: 1px solid #ececec;
+            border-top: 1px solid #ececec;
+            font-size: 13px;
+        }
+        .config-file-screen {
+            .dim(170px, 170px);
+            .postl(2px, 172px);
+            .transition(.35s, left);
+            z-index: 2;
+            cursor: default;
+            background-color: white;
+
+            &.open {
+                .postl(2px, 2px);
+            }
+            label {
+                border-bottom: 1px solid #eee;
+                position: static;
+                text-align: left;
+                display: block;
+                line-height: 25px;
+                padding: 2px 8px;
+
+                &.flag_file {
+                    padding: 0;
+                }
+                .flag_file_label {
+                    padding-left: 10px;
+                    font-size: 11px;
+                    font-weight: normal;
+                    display: block;
+                    padding-top: 5px;
+                }
+            }
+            .bootstrap-select {
+                height: 25px;
+
+                .selectpicker {
+                    border: 0;
+                    background-color: transparent;
+                    padding-top: 0;
+
+                    .filter-option {
+                        color: #525252;
+                        font-family: 'Open Sans',sans-serif;
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                }
+                .dropdown-menu {
+                    border: 0 none;
+
+                    li {
+                        a {
+                            padding: 3px 10px 4px 10px;
+
+                            .text {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .name{
+        margin-right: 45px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .imageOlds &, .fileOlds &{
+        cursor: move;
+    }
+}

@@ -1,0 +1,54 @@
+@import '../../../comum/assets/less/_variables.less';
+
+#faq {
+  #questions {
+    margin: 8rem 0;
+
+    .common-text {
+      .font(12, 600);
+      text-align: center;
+    }
+
+    .questions-wrapper {
+      max-width: 1280px;
+      margin: 4rem auto 0;
+
+      .question {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+
+        &.open {
+          background-color: @sec-color;
+
+          .answer {
+            max-height: 100%;
+            padding: 0 2rem 2rem;
+          }
+        }
+
+        .title {
+          .font(14, 700);
+          line-height: 1.5;
+          color: @main-color;
+          cursor: pointer;
+          text-transform: uppercase;
+          padding: 2rem;
+        }
+
+        .answer {
+          max-height: 0;
+          overflow: hidden;
+          margin: 0;
+          max-width: 100%;
+          text-align: left;
+          color: #FFF;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}

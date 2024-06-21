@@ -1,0 +1,70 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.tab-content{
+    margin-top: 10px;
+}
+.upload-wrapper{
+    .relative();
+    .thumbnail{
+        height: 305px;
+        text-align: center;
+    }
+    #progress{
+        .dim(100%,5px);
+        .bar{
+            .dim(0%,5px);
+            background: @warning-bgcolor url('@{img}animated-overlay.gif') 0% 50%;
+            .transition(1s,background);
+            &.complete{ background: darken(@success-bgcolor,15%); }
+        }
+    }
+    .upload-image{
+        .relative();
+        .dim(100%,200px);
+        max-width: 200px;
+        &:after{
+            content: '';
+            .postl(50%,50%);
+            .mrgtl(-8px,-8px);
+            .dim(16px,16px);
+            .transition(0.3s);
+        }
+        &.loading{
+            &:after{
+                .csstransitions &{ .opacity(1); }
+                .no-csstransitions &{ .block(); }
+            }
+            img{ .opacity(0); }
+        }
+        img{
+            .opacity(1);
+            .transition(0.3s);
+        }
+    }
+    .delete-image {
+
+    }
+    [id^="fileupload"] {
+        .opacity(0);
+        .dim(10px, 10px);
+        .relative();
+        top: 15px;
+        left: 50px;
+        z-index: 0;
+    }
+    label,a{
+        .relative();
+        .iblock();
+        z-index: 1;
+    }
+}
+.sort-info {
+    margin-left: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    > i {
+        border: 0 !important;
+        margin-left: 8px;
+        opacity: 0;
+    }
+}

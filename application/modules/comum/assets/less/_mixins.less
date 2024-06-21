@@ -1,0 +1,377 @@
+///////////////////////////////////
+/////////// ATALHOS ///////////////
+///////////////////////////////////
+.absmiddle() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  .transform(translate(-50%, -50%));
+}
+
+.absvertical() {
+  position: absolute;
+  top: 50%;
+  .transform(translate(0, -50%));
+}
+
+.abscenter() {
+  position: absolute;
+  left: 50%;
+  .transform(translate(-50%, 0));
+}
+
+.absolute() {
+  position: absolute;
+}
+
+.arial() {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block() {
+  display: block;
+}
+
+.bgpos(@xy: top center) {
+  background-position: @xy
+}
+
+;
+
+.bold() {
+  font-weight: bolder;
+}
+
+.clr() {
+  &:after {
+    content: " ";
+    .block;
+    clear: both;
+  }
+}
+
+.dim(@width: auto, @height: auto) {
+  height: @height;
+  width: @width;
+}
+
+.fleft() {
+  float: left;
+}
+
+.fit(@fit: cover, @position: 50% 50%) {
+  .dim(100%, 100%);
+  object-fit: @fit;
+  -o-object-fit: @fit;
+  object-position: @position;
+  -o-object-position: @position;
+}
+
+.fixed() {
+  position: fixed;
+}
+
+.fright() {
+  float: right;
+}
+
+.invisible() {
+  display: none
+}
+
+.iblock(@vertical: top) {
+  display: inline-block;
+  vertical-align: @vertical;
+}
+
+.italic() {
+  font-style: italic;
+}
+
+.justify() {
+  text-align: justify;
+
+  >* {
+    position: relative;
+    top: 1.202em;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-bottom: -1.202em;
+  }
+
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.lower() {
+  text-transform: lowercase;
+}
+
+.limiter(@width: @full-width) {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: @min-width;
+  max-width: @width;
+  width: 100%;
+}
+
+.nofocus() {
+  &:focus {
+    outline: none;
+  }
+}
+
+.norepeat() {
+  background-repeat: no-repeat;
+}
+
+.normal() {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.notext() {
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.place(@color) {
+  &::-webkit-input-placeholder {
+    color: @color;
+  }
+
+  &:-moz-placeholder {
+    color: @color;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: @color;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: @color;
+  }
+}
+
+.pointer() {
+  cursor: pointer;
+}
+
+.postl(@top, @left) {
+  .absolute;
+  top: @top;
+  left: @left;
+}
+
+.postr(@top, @right) {
+  .absolute;
+  top: @top;
+  right: @right;
+}
+
+.posbl(@bottom, @left) {
+  .absolute;
+  bottom: @bottom;
+  left: @left;
+}
+
+.posbr(@bottom, @right) {
+  .absolute;
+  bottom: @bottom;
+  right: @right;
+}
+
+.relative() {
+  position: relative;
+}
+
+.repeat() {
+  background-repeat: repeat;
+}
+
+.tshadow(@color: #000) {
+  text-shadow: 0 1px 0 @color;
+}
+
+.upper() {
+  text-transform: uppercase;
+}
+
+.visible() {
+  display: block
+}
+
+///////////////////////////////////
+/////////// FONTES ////////////////
+///////////////////////////////////
+.font-bold() {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.font-regular() {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font(@size: 16px, @weight: 400) {
+  font-family: 'Montserrat', sans-serif;
+  .fsize(@size);
+  font-weight: @weight;
+}
+
+///////////////////////////////////
+/////////// COLORS ////////////////
+///////////////////////////////////
+.default() {
+  background-color: @default-bgcolor;
+}
+
+.danger() {
+  background-color: @danger-bgcolor;
+}
+
+.info() {
+  background-color: @info-bgcolor;
+}
+
+.primary() {
+  background-color: @primary-bgcolor;
+}
+
+.success() {
+  background-color: @success-bgcolor;
+}
+
+.warning() {
+  background-color: @warning-bgcolor;
+}
+
+///////////////////////////////////
+/////////// MIXINS ////////////////
+///////////////////////////////////
+.double-image-effect() {
+  .relative();
+  .block();
+
+  img {
+    .postl(0, 0);
+    .transition(.4s, opacity);
+  }
+
+  img:first-child+img {
+    .opacity(0);
+  }
+
+  &:hover img:first-child {
+    .opacity(0);
+  }
+
+  &:hover img:first-child+img {
+    .block;
+    .opacity(1);
+  }
+}
+
+.fsize(@sizeValue: 15px) {
+  @remValue: (unit(@sizeValue) / 10);
+  @pxValue: unit(@sizeValue);
+  font-size:~"@{pxValue}px";
+  font-size:~"@{remValue}rem";
+}
+
+.tab-focus() {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.triangle-default() {
+  content: '';
+  .block();
+  .dim(0, 0);
+  -moz-transform: scale(.9999);
+}
+
+.triangle(@direction, @size, @color) {
+  .triangle(@direction, @size * 2, @size, @color);
+}
+
+.triangle(@direction, @width, @height, @color) when (@direction =top) {
+  .triangle-default();
+  border-left: (@width / 2) solid transparent;
+  border-right: (@width / 2) solid transparent;
+  border-bottom: @height solid @color;
+}
+
+.triangle(@direction, @width, @height, @color) when (@direction =bottom) {
+  .triangle-default();
+  border-left: (@width / 2) solid transparent;
+  border-right: (@width / 2) solid transparent;
+  border-top: @height solid @color;
+}
+
+.triangle(@direction, @width, @height, @color) when (@direction =left) {
+  .triangle-default();
+  border-top: (@width / 2) solid transparent;
+  border-bottom: (@width / 2) solid transparent;
+  border-right: @height solid @color;
+}
+
+.triangle(@direction, @width, @height, @color) when (@direction =right) {
+  .triangle-default();
+  border-top: (@width / 2) solid transparent;
+  border-bottom: (@width / 2) solid transparent;
+  border-left: @height solid @color;
+}
+
+.autofill(@font: ~'#000', @color-bg: ~'#FFFFFF') {
+
+  input:-webkit-autofill,
+  .error:-webkit-autofill,
+  input:-webkit-autofill:focus,
+  .error:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px @color-bg inset !important;
+    background-color: @color-bg  !important;
+    -webkit-text-fill-color: @font  !important;
+  }
+}
+
+.transparent-autofill(@color: ~'#FFFFFF') {
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-text-fill-color: @color  !important;
+  }
+}
+
+.font-size(@min: 10, @max: 20) {
+  font-size: calc(~'@{min}px + (@{max} - @{min}) * (100vw - 320px)/(1920 - 320)');
+}
+
+.line-height(@min: 10, @max: 20) {
+  line-height: calc(~'@{min}px + (@{max} - @{min}) * (100vw - 320px)/(1920 - 320)');
+}
+
+.slick-margin(@margin: 10px) {
+  .slick-slide {
+    margin: 0 (@margin / 2);
+  }
+
+  .slick-list {
+    margin: 0 -(@margin / 2);
+  }
+}

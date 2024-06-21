@@ -1,0 +1,25 @@
+@import './_variables.less';
+
+#footer {
+  position: relative;
+  padding: 8rem 0;
+  background-color: @sec-color;
+
+  .ezoom {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+      display: table;
+
+      svg {
+        .dim(auto, 14px);
+
+        path {
+          fill: #FFF;
+        }
+      }
+    }
+  }
+}

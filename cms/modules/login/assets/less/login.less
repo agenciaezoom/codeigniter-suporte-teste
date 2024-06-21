@@ -1,0 +1,74 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.loginWrapper{
+    background: #eee;
+    #content{
+        .border-radius(3px);
+        background: #fff;
+        max-width: 760px;
+        margin: 0 auto;
+        #login{
+            padding-bottom: 20px;
+            .box-shadow( 0 2px 2px #888888);
+             > h4 {
+                padding: 15px 0;
+                margin: 15px 0 0 0;
+                border-bottom: 1px solid #ddd;
+            }
+            @media (min-width: @screen-sm) {
+                > h4 {
+                    margin-top: 50px;
+                }
+            }
+            #login-lock{
+                color: #dfdfdf;
+                text-align: center;
+                > img{
+                    max-width: 330px;
+                    max-height: 140px;
+                }
+                > i{
+                    font-size: 120px;
+                }
+            }
+            #login-forgot{
+                text-align: right;
+                font-size: 13px;
+                margin-top: 5px;
+            }
+            #login-form{
+                float: none;
+                padding: 25px;
+                .border-radius(3px);
+                .glyphicon-refresh-animate {
+                    -animation: spin .7s infinite linear;
+                    -webkit-animation: spin2 .7s infinite linear;
+                }
+
+                @-webkit-keyframes spin2 {
+                    from { -webkit-transform: rotate(0deg);}
+                    to { -webkit-transform: rotate(360deg);}
+                }
+
+                @keyframes spin {
+                    from { transform: scale(1) rotate(0deg);}
+                    to { transform: scale(1) rotate(360deg);}
+                }
+            }
+            .logo-companies{
+                padding-top: 40px;
+                text-align: center;
+                border-top: 1px solid #ddd;
+                li{
+                    .iblock(bottom);
+                    height: 50px;
+                    text-align: center;
+                    margin-right: 30px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

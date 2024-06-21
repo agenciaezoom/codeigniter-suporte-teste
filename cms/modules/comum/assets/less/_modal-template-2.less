@@ -1,0 +1,92 @@
+@import '../../../comum/assets/less/_variables.less';
+
+#modal-view{
+    .dim(100%, 100%);
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-color: fade(#000, 50%);
+
+    .row{
+        margin: 0 -6px !important;
+    }
+    .modal-dialog{
+        width: 92% !important;
+        .modal-content{
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            left: 0px;
+            right: 0px;
+            height: 650px;
+            width: 100%;
+        }
+    }
+    .loading{
+        text-align: center;
+        font-size: 24px;
+        padding: 150px 0 !important;
+    }
+    .modal-text{
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .modal-font{
+        font-style: italic;
+        padding-top: 18px;
+    }
+    .play-btn{
+        .postl(50%,50%);
+        margin-top: -25px;
+        margin-left: -28px;
+        color: rgba(10,121,203,0.8)!important;
+        .pointer();
+    }
+    .btn-group{
+        .hidden-xs{
+            display: inline-block !important;
+        }
+        @media (max-width: 767px){
+            .hidden-xs {
+                display: none!important;
+            }
+        }
+    }
+    .lead{
+        font-size: 15px;
+    }
+    .title-modal{
+        background-color: #f7f7f7;
+        > i{
+            float: left;
+            padding: 15px 20px 20px 20px;
+        }
+        > h2{
+            padding-left: 100px;
+            margin: 20px 0 0 0;
+            font-size: 27px;
+        }
+        > p{
+            padding-left: 105px;
+        }
+    }
+    .block-group{
+        label{
+            i{
+                float: left;
+                margin-top: 5px;
+                margin-right: 5px;
+            }
+        }
+        &.three-lines{
+            label{
+                i{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

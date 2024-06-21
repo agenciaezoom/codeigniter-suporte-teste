@@ -1,0 +1,44 @@
+.checkbox-custom {
+    input[type=checkbox] {
+        position: relative;
+        left: -99999px;
+    }
+
+    i {
+        float: left;
+        margin: 0 5px 0 -20px;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        color: #286090;
+        display: inline-block;
+        font-size: 1em;
+        line-height: 22px;
+        &.checked {
+            color: #286090;
+            margin-left: -19px;
+            &:before {
+                content: '\f14a';
+            }
+        }
+
+        &.disabled {
+            color: #eee;
+        }
+    }
+
+    span{
+        float: left;
+        padding-left: 0.5em;
+    }
+}
+
+.checkbox-single {
+    vertical-align: middle;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px;
+    .checkbox-custom {
+        i { margin-left: 1px; }
+    }
+}

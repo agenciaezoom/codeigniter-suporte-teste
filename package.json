@@ -1,0 +1,42 @@
+{
+    "name": "framework-ezoom-codeigniter",
+    "version": "1.0.0",
+    "description": "Framework frontend da Ezoom baseado em Codeigniter PHP",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/ezoom/framework-ezoom-codeigniter.git"
+    },
+    "keywords": [
+        "framework",
+        "html",
+        "css",
+        "javascript",
+        "html",
+        "php",
+        "codeigniter"
+    ],
+    "author": "Ezoom",
+    "license": "Unlicense",
+    "homepage": "https://bitbucket.org/ezoom/framework-ezoom-codeigniter#readme",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.26.7",
+        "find-in-file": "^1.0.1",
+        "gulp": "^3.9.0",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-dependencies-changed": "^1.0.2",
+        "immutable": "^4.0.0-rc.12"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4"
+    }
+}

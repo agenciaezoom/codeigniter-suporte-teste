@@ -1,0 +1,24 @@
+body {
+    color: @primaryColor;
+}
+::selection {
+    color: mix(#fff, @primaryColor, 50%);
+    background: @primaryColor;
+}
+::-moz-selection {
+    color: mix(#fff, @primaryColor, 50%);
+    background: @primaryColor;
+}
+.gradient {
+    .gradient2(-45deg, @gradientTo 0%, @gradientFrom 100%, @gradientSvg);
+}
+.bgradient {
+    &:before {
+        .gradient2(-45deg, @gradientTo 0%, @gradientFrom 100%, @gradientSvg);
+    }
+}
+.agradient {
+    &:after {
+        .gradient2(-45deg, @gradientTo 0%, @gradientFrom 100%, @gradientSvg);
+    }
+}

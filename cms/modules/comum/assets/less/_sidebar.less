@@ -1,0 +1,221 @@
+#menu-left {
+  .fixed();
+  .dim(252px, 100%);
+  .display-flex();
+  .flex-direction(column);
+  z-index: 2;
+  color: @sidebar-text-color;
+  background-color: @sidebar-bg-color;
+  overflow: hidden;
+
+  &.hidden {
+    display: block !important;
+    width: 0;
+  }
+
+  #menu-list {
+    .upper();
+    .roboto-bold();
+    .flex-grow(1);
+    overflow-y: hidden;
+    margin-bottom: 0;
+    height: calc(100% - 189px);
+    width: 100%;
+
+    .mCSB_container {
+      margin-right: 0;
+    }
+
+    .mCustomScrollBox>.mCSB_scrollTools {
+      right: 0;
+    }
+
+    .mCSB_draggerRail {
+      background: transparent !important;
+    }
+
+    .mCSB_dragger_bar {
+      background: lighten(@sidebar-bg-color, 18%) !important;
+    }
+
+    .unreal-focus {
+      background-color: darken(@sidebar-bg-color, 10%) !important;
+      outline: Highlight 2px solid;
+    }
+
+    #menu-no-modules {
+      padding: 15px 10px;
+      // font-size: 12px;
+      text-align: center;
+    }
+
+    li {
+      .relative();
+      .pointer();
+      .transition(300ms);
+      .dim(252px);
+      min-height: 48px;
+      border-bottom: 1px solid @sidebar-border-color;
+
+      span {
+        .iblock();
+        .transition(.3s);
+        padding-left: 8px;
+        font-size: 14px !important;
+        max-width: 190px;
+      }
+
+      >div,
+      >a {
+        min-height: 48px;
+        padding: 15px 0;
+        line-height: 18px;
+      }
+
+      li {
+
+        >div,
+        >a {
+          padding-left: 20px;
+        }
+      }
+
+      .subMenuFather {
+        .roboto-bold();
+        color: @sidebar-text-color;
+        text-decoration: none;
+      }
+
+      a {
+        .dim(100%, 100%);
+        display: inline-block;
+        text-decoration: none;
+        color: @sidebar-text-color;
+        .transition(.3s);
+      }
+
+      &.hasSubmenu {
+        .transition(.3s);
+        overflow: hidden;
+        height: auto;
+
+        >ul {
+          display: none;
+
+          >li {
+            &.hasSubmenu {
+              a {
+                padding-left: 45px !important;
+              }
+            }
+
+            a {
+              padding-left: 30px !important;
+            }
+
+            >.subMenuFather,
+            >a {
+              padding-left: 30px;
+            }
+
+            >ul>li {
+
+              >a,
+              .subMenuFather {
+                padding-left: 40px;
+              }
+
+              >ul>li {
+                >a {
+                  padding-left: 60px;
+                }
+              }
+            }
+          }
+        }
+
+        >.subMenuFather {
+          .dim(100%);
+          .iblock();
+          padding-left: 20px;
+
+          &:after {
+            .postr(20px, 20px);
+            content: "\2b";
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+        }
+
+        &.collapse-in {
+          background-color: darken(@sidebar-bg-color, 7%);
+
+          >.subMenuFather {
+            &:after {
+              content: "\2212";
+            }
+          }
+
+          >ul {
+            background-color: darken(@sidebar-bg-color, 3%);
+
+            li {
+              border-bottom: 1px solid @sidebar-border-color;
+            }
+          }
+        }
+      }
+
+      .active {
+        background: darken(@sidebar-bg-color, 5%);
+      }
+
+      &:hover {
+        background-color: darken(@sidebar-bg-color, 5%);
+      }
+    }
+  }
+}
+
+#sidebar-search {
+  position: relative;
+  margin-top: 59px;
+  .flex-shrink(0);
+
+  input {
+    color: #fff;
+    border: 0;
+    font-size: 13px;
+    background: #000;
+    width: 100%;
+    height: 50px;
+    padding: 0 40px 0 20px;
+  }
+
+  :-moz-placeholder {
+    color: fade(#fff, 50%);
+  }
+
+  ::-webkit-input-placeholder {
+    color: fade(#fff, 50%);
+  }
+
+  ::-moz-placeholder {
+    color: fade(#fff, 50%);
+  }
+
+  :-ms-input-placeholder {
+    color: fade(#fff, 50%);
+  }
+
+  .fa {
+    .postr(50%, 20px);
+    color: fade(#fff, 50%);
+    .transform(translateY(-50%));
+  }
+}

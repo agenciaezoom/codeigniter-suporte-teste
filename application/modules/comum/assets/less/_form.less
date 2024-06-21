@@ -1,0 +1,418 @@
+.keyframes(~'spinner, 100%{ transform: rotate(360deg); transform: rotate(360deg);}');
+
+.common-form {
+  .fsize(0);
+
+  .row {
+    .dim(100%);
+    .fsize(0);
+
+    &.center {
+      text-align: center;
+    }
+
+    &.right {
+      text-align: right;
+    }
+  }
+
+  .field {
+    .iblock();
+    .dim(100%);
+    .fsize(0);
+    position: relative;
+    min-height: 5rem;
+
+    svg {
+      .postr(50%, 1.9rem);
+      .translateY(-50%);
+      z-index: 1;
+      fill: fade(#666666, 30%);
+      .dim(2.4rem, 2.4rem);
+      .transition(fill .3s);
+      pointer-events: none;
+    }
+
+    &.col-2 {
+      width: calc(~'50% - 1.5rem');
+
+      &:nth-of-type(even) {
+        margin-left: 1.5rem;
+      }
+    }
+
+    &.col-3 {
+      width: calc(~'100% / 3 - 1.5rem');
+      margin-left: 1.5rem;
+
+      &:nth-of-type(3n + 1) {
+        margin-left: 0rem;
+      }
+    }
+
+    &.col-4 {
+      width: calc(~'100% / 4 - 1.5rem');
+      margin-left: 1.5rem;
+
+      &:nth-of-type(4n + 1) {
+        margin-left: 0rem;
+      }
+    }
+
+    .label,
+    label {
+      .iblock();
+      .font(13, 500);
+      color: @text-color;
+      margin-bottom: 1rem;
+    }
+
+    textarea,
+    >input {
+      .dim(100%, 5rem);
+      .iblock();
+      .font(13, 500);
+      border: 2px solid @b-color;
+      border-radius: 6px;
+      color: @text-color;
+      padding: 0 2rem;
+      .transition(box-shadow .3s, color .3s, border .3s);
+      position: relative;
+      z-index: 5;
+
+      &:focus {
+        .box-shadow(0 0 10px 0 rgba(0, 0, 0, .1));
+      }
+
+      &::placeholder {
+        .font(12, 700);
+        text-transform: uppercase;
+        color: @text-color;
+      }
+    }
+
+    textarea {
+      height: 21rem;
+      padding: 1.7rem 2rem;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0;
+      /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+    select {
+      .dim(100%, 5rem);
+      background-color: #FFF;
+      padding: 0 1.5rem;
+      .font-regular();
+      color: #FFF;
+      overflow: hidden;
+    }
+
+    .selectize-input {
+      .transition(border .4s);
+    }
+
+    &.error {
+      border-color: red;
+
+      input,
+      textarea,
+      .selectize-input {
+        color: red !important;
+        .placeholder(red);
+        border-color: red !important;
+        -webkit-text-fill-color: red !important;
+      }
+
+      svg {
+        fill: red;
+      }
+
+      .ms-choice {
+        border-color: red !important;
+      }
+
+      .selectBox-dropdown {
+        .box-shadow(inset 0 0 0 2px red);
+
+        .selectBox-label {
+          color: red;
+        }
+      }
+    }
+
+    &.has-loader {
+      &:after {
+        content: '';
+        .posbr(1.1rem, .7rem);
+        // .translateY(-50%);
+        .dim(3rem, 3rem);
+        .border-radius(50%);
+        // .box-shadow(0 2px 0 0 @red);
+        .box-shadow(0 2px 0 0 #333);
+        // .box-shadow(0 2px 0 0 @red);
+        .animation(uil-ring-anim 1s linear infinite);
+        .opacity(0);
+        // background-color: #FFF;
+        .animation-play-state(running);
+        visibility: hidden;
+        .transition(opacity .3s, visibility 0s ease-in-out .3s);
+        z-index: 1;
+      }
+
+      &.loading {
+        &:after {
+          visibility: visible;
+          .transition(opacity .3s, visibility 0s ease-in-out 0s);
+          .opacity(1);
+        }
+      }
+    }
+
+  }
+
+  .submit {
+    position: relative;
+    padding: 2rem 4rem;
+    background-color: #333333;
+    border: 0px;
+    overflow: hidden;
+    .iblock();
+    .transition(background-color .3s, box-shadow .3s);
+    .border-radius(5px);
+
+    &:after {
+      content: '';
+      .dim(100%, 200%);
+      .border-radius(40%);
+      .postl(0, 0);
+      .translateY(50%);
+      .transition(transform .3s, border-radius .3s);
+      background-color: @red;
+      z-index: 1;
+
+      @media (max-width: 970px) {
+        display: none !important;
+      }
+    }
+
+    &.secondary-btn {
+      .loader {
+        &::after {
+          .box-shadow(0 2px 0 0 @red);
+        }
+      }
+    }
+
+    .default {
+      color: #FFF;
+      .transition(opacity .3s);
+      .upper();
+      .font-regular();
+      .transition(color .3s);
+      position: relative;
+      z-index: 2;
+
+      b,
+      strong {
+        .font-regular();
+      }
+
+      svg {
+        .iblock(middle);
+        color: #FFF;
+        .dim(1.3rem, 1.3rem);
+        fill: #FFF;
+        margin-right: .9rem;
+      }
+    }
+
+    .loader {
+      .dim(3rem, 3rem);
+      .postl(50%, 50%);
+      .transform(scale(1.3) translate(-50%, -50%));
+      .transition(translate .3s, opacity .3s);
+      .opacity(0);
+      .translate(-50%, -50%);
+      z-index: 2;
+
+      &:after {
+        content: '';
+        .dim(3rem, 3rem);
+        .border-radius(50%);
+        .box-shadow(0 2px 0 0 #FFF);
+        .animation(uil-ring-anim 1s linear infinite);
+        .opacity(0);
+        .postl(0, 0);
+        .transition(all .3s);
+        // .translate(-50%,-50%);
+      }
+    }
+
+    &.loading {
+      .default {
+        .opacity(0);
+      }
+
+      &:after {
+        @media (min-width: 971px) {
+          .translateY(0%);
+          .border-radius(3px);
+        }
+      }
+
+      .loader {
+        .opacity(1);
+
+        &:after {
+          .opacity(1);
+        }
+      }
+
+      &.secondary-btn {
+        .loader {
+          &::after {
+            .box-shadow(0 2px 0 0 white);
+          }
+        }
+      }
+    }
+  }
+
+  .radios {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+
+    label {
+      display: flex;
+      cursor: pointer;
+      font-weight: 500;
+      position: relative;
+      overflow: hidden;
+      margin: 0 .5rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      input {
+        position: absolute;
+        left: -9999px;
+
+        &:checked+span {
+          background-color: mix(#fff, @main-color, 84%);
+
+          &:before {
+            box-shadow: inset 0 0 0 0.4375em @main-color;
+          }
+        }
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        padding: 0.375em 0.75em 0.375em 0.375em;
+        border-radius: 99em;
+        transition: 0.25s ease;
+
+        &:hover {
+          background-color: mix(#fff, @main-color, 84%);
+        }
+
+        &:before {
+          display: flex;
+          flex-shrink: 0;
+          content: "";
+          background-color: #fff;
+          width: 1.5em;
+          height: 1.5em;
+          border-radius: 50%;
+          margin-right: 0.375em;
+          transition: 0.25s ease;
+          box-shadow: inset 0 0 0 0.125em @main-color;
+        }
+      }
+    }
+  }
+
+  &.sending:not(.direct-get) {
+    .submit {
+
+      // background-color: #FFF;
+      // .box-shadow(inset 0 0 0 1px #FFF);
+      .default {
+        .opacity(0);
+      }
+
+      .loader {
+        .opacity(1);
+
+        &:after {
+          .opacity(1);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 970px) {
+    .field {
+      width: 100%;
+      min-height: 4.5rem;
+
+      &.col-2 {
+        width: 100%;
+      }
+
+      textarea,
+      >input,
+      select {
+        height: 4.8rem;
+        .font-regular();
+        padding: 0 1.5rem;
+        border-width: 1px;
+        border-color: #cfcfcf;
+        letter-spacing: .029rem;
+
+        &::-webkit-input-placeholder {
+          .font-regular();
+          letter-spacing: .029rem;
+        }
+
+        &:-moz-placeholder {
+          .font-regular();
+          letter-spacing: .029rem;
+        }
+
+        &::-moz-placeholder {
+          .font-regular();
+          letter-spacing: .029rem;
+        }
+
+        &:-ms-input-placeholder {
+          .font-regular();
+          letter-spacing: .029rem;
+        }
+      }
+
+      textarea {
+        height: 19rem;
+        padding: 1.5rem;
+      }
+    }
+
+    .submit {
+      .border-radius(2px);
+
+      .default {
+        .font-regular() !important;
+        letter-spacing: .03rem !important;
+      }
+    }
+  }
+}

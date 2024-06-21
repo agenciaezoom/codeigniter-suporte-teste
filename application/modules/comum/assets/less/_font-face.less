@@ -1,0 +1,31 @@
+/**
+ * css
+ *
+ * @category css
+ * @author Ralf da Rocha
+ * @copyright 2016 Ezoom
+ */
+///////////////////////////////////
+////////// FONT-FACE //////////////
+///////////////////////////////////
+.font-face(@font-family, @font-file) {
+  font-family: @font-family;
+  src: url('@{fonts}@{font-file}.eot');
+  src: url('@{fonts}@{font-file}.eot?#iefix') format('embedded-opentype'),
+  url('@{fonts}@{font-file}.woff2') format('woff2'),
+  url('@{fonts}@{font-file}.woff') format('woff'),
+  url('@{fonts}@{font-file}.ttf') format('truetype'),
+  url('@{fonts}@{font-file}.svg#{font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Exemplo de USO:
+// @font-face {
+//     .font-face('font-family', 'font-file');
+// }
+
+// Descomentar se for usar GLYPHICONS:
+// @font-face {
+//     .font-face('glyphicons-halflings-regular', 'glyphicons-halflings-regular');
+// }

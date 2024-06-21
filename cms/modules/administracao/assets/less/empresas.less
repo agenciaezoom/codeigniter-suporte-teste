@@ -1,0 +1,80 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.tab-content{
+    margin-top: 10px;
+}
+
+.form-horizontal{
+    .data-banners{
+        margin-top: 25px;
+    }
+    .input-data-banner{
+        max-width: 280px;
+    }
+}
+.upload-wrapper{
+    .relative();
+    .thumbnail{
+        height: 305px;
+        text-align: center;
+    }
+    #progress{
+        .dim(100%,5px);
+        .bar{
+            .dim(0%,5px);
+            background: @warning-bgcolor url('@{img}animated-overlay.gif') 0% 50%;
+            .transition(1s,background);
+            &.complete{ background: darken(@success-bgcolor,15%); }
+        }
+    }
+    .upload-image.image-primary{
+        .relative();
+        .dim(100%,50px);
+        .fleft();
+        max-width: 50px;
+        line-height: 50px;
+        &:after{
+            content: '';
+            .postl(50%,50%);
+            .mrgtl(-8px,-8px);
+            .dim(16px,16px);
+            .transition(0.3s);
+        }
+        span{
+            .dim(50px, 50px);
+            .border-radius(3px);
+            .fleft();
+            background-color: #F5F5F5;
+            border: 1px solid #CCC;
+            text-align: center;
+            font-size: 10px;
+            color: #204D74;
+        }
+        img{
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            .opacity(1);
+            .transition(0.3s);
+        }
+    }
+    .delete-image {
+
+    }
+    [id^="fileupload"] {
+        .opacity(0);
+        .dim(10px, 10px);
+        .relative();
+        top: 15px;
+        left: 50px;
+        z-index: 0;
+    }
+    label,a{
+        .relative();
+        .iblock();
+        z-index: 1;
+    }
+}

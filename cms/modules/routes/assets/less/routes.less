@@ -1,0 +1,72 @@
+@import '../../../comum/assets/less/_variables.less';
+
+#ajax-modal.in .modal-dialog .modal-content .modal-body{
+	height: auto;
+}
+
+.row{
+	text-align: center;
+}
+
+#copy-btn{
+	margin-top: 2rem;
+	position: relative;
+
+	span{
+		.transition(opacity .4s);
+	}
+
+	&:after, &:before{
+    	font-family: FontAwesome;
+		font-size: 2rem;
+		.postl(50%, 50%);
+		.translate(-50%, -50%);
+		.opacity(0);
+		.transition(opacity .4s);
+	}
+
+	&:after{
+		content: "\f00c";
+	}
+
+	&:before{
+		content: "\f00d";
+	}
+
+	&.btn-success{
+		background-color: #449d44;
+
+		&:after{
+			.opacity(1);
+		}
+
+		span{
+			.opacity(0);
+		}
+	}
+
+	&.btn-error{
+		background-color: #c9302c;
+
+		&:before{
+			.opacity(1);
+		}
+
+		span{
+			.opacity(0);
+		}
+	}
+}
+
+#response-message{
+	float: left;
+	margin-top: 1.5rem;
+	height: 30px;
+	width: 100%;
+	.opacity(0);
+	.transition(opacity .4s);
+
+	&.show{
+		.opacity(1);
+	}
+}

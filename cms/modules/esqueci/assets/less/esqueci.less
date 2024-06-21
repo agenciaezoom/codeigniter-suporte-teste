@@ -1,0 +1,51 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.loginWrapper{
+    background: #eee;
+    #content{
+        .border-radius(3px);
+        background: #fff;
+        max-width: 760px;
+        margin: 0 auto;
+        #forgot{
+            padding-bottom: 20px;
+            .box-shadow( 0 2px 2px #888888);
+             > h4 {
+                padding: 15px 0;
+                margin: 15px 0 0 0;
+                border-bottom: 1px solid #ddd;
+            }
+            @media (min-width: @screen-sm) {
+                > h4 {
+                    margin-top: 50px;
+                }
+            }
+            #forgot-pass{
+                color: #dfdfdf;
+                text-align: center;
+                > i{
+                    font-size: 120px;
+                }
+            }
+            #forgot-form{
+                float: none;
+                padding: 25px;
+                .border-radius(3px);
+                .glyphicon-refresh-animate {
+                    -animation: spin .7s infinite linear;
+                    -webkit-animation: spin2 .7s infinite linear;
+                }
+
+                @-webkit-keyframes spin2 {
+                    from { -webkit-transform: rotate(0deg);}
+                    to { -webkit-transform: rotate(360deg);}
+                }
+
+                @keyframes spin {
+                    from { transform: scale(1) rotate(0deg);}
+                    to { transform: scale(1) rotate(360deg);}
+                }
+            }
+        }
+    }
+}

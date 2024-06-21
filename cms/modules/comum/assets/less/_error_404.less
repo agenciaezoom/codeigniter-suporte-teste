@@ -1,0 +1,39 @@
+//=====================================
+//	IMPORTS
+//=====================================
+@import '_variables.less';
+@import '_font-face.less';
+@import '_reset.less';
+
+//=====================================
+//	ERROR 404
+//=====================================
+body{
+	height: 100%;
+	text-align: center;
+}
+#wrapper{
+	padding: 12% 0;
+	.logo{
+		margin-bottom: 3%;
+        max-width: 300px;
+        max-height: 150px;
+	}
+	.message{
+		font-size: 34px;
+		margin-bottom: 3%;
+		.big{ font-size: 48px; margin-bottom: 1%;}
+	}
+	a{
+		// .gradient(darken(@gold-color,10%),@gold-color);
+		.border-radius(3px);
+		.box-shadow(0 0 10px 2px rgba(0,0,0,0.3));
+		// color: @default-color;
+		.iblock();
+		font-size: 20px;
+		padding: 10px 30px;
+		.transition(0.3s, opacity);
+		&:hover{ .opacity(0.8); }
+		&:active{ .transform(scale(0.98)); };
+	}
+}

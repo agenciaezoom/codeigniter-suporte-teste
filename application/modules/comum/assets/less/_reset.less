@@ -1,0 +1,80 @@
+/*
+    Document   : reset.css
+    Created on : 09/12/2011, 09:07:00
+    Author     : Jonas
+    Description: Purpose of the stylesheet follows.
+*/
+@import "_mixins.less";
+@import "_variables.less";
+
+.selection(~'color: #fff; background: #000');
+
+*{
+    background-position:0 0;
+    .box-sizing(border-box);
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    &::selection, &::moz-selection, &::webkit-selection{
+        color: #FFF;
+    }
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    @media only screen and (max-width: 409px) {
+        font-size: 62.5%;
+    }
+    @media only screen and (min-width: 410px) and (max-width: 767px) {
+        font-size: 62.5%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        font-size: 72%;
+    }
+}
+body{
+    background: #ffffff;
+    color: @text-color;
+    .fsize(15px);
+    .font-regular();
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input, textarea {
+    box-shadow:none;
+    border: 0 none;
+    resize: none;
+    background-color: transparent;
+}
+input,select,textarea{ .font-regular(); }
+input[type=text]::-ms-clear, input[type=password]::-ms-clear, input[type=email]::-ms-clear { display: none; }
+input:focus, textarea:focus,select:focus,button:focus { outline: none; }
+::-webkit-input-placeholder { color: @text-color; }
+:-moz-placeholder { color: @text-color; }
+::-moz-placeholder { color: @text-color; }
+:-ms-input-placeholder { color: @text-color; }
+textarea{ resize:none; } // none|both|vertical|horizontal
+img{ border: 0; }
+b, strong{ .font-bold(); }
+i{ .italic(); }
+h1, h2, h3, h4, h5, h6 {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: inherit;
+    font-size: inherit;
+}

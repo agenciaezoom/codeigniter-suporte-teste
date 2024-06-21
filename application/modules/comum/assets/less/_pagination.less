@@ -1,0 +1,66 @@
+//=====================================
+//  Paginação
+//=====================================
+.pagination{
+    font-size: 0;
+    padding-top: 4rem;
+    text-align: center;
+    li{
+        color: @text-color;
+        .fsize(16px);
+        .font-bold();
+        .iblock(middle);
+        margin-left: 6px;
+        height: 27px;
+        line-height: 27px;
+        min-width: 27px;
+        &:hover{
+            a,span{
+                color: @main-color;
+            }
+        }
+        a{
+            .block();
+            color: @text-color;
+            .transition(color .3s @io-sine);
+            text-align: center;
+            z-index: 1;
+        }
+        &:first-child{
+            margin-left: 0;
+        }
+        &.active{
+            span{
+                .border-radius(2px);
+                border: 1px solid fade(#000,20%);
+                .block();
+                color: @main-color;
+                line-height: 25px;
+                z-index: 1;
+            }
+        }
+        &.prevNext{
+            font-size: (15px);
+        }
+    }
+    @media screen and (max-width: (@min-width - 1px)){
+        li{
+            .fsize(15px);
+            margin-left: .2rem;
+            height: 2.6rem;
+            line-height: 2.6rem;
+            min-width: 2.6rem;
+            &.prevNext{
+                min-width: 2rem;
+            }
+            &.dots{
+                min-width: auto;
+            }
+            &.active{
+                span{
+                    line-height: 2.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.permission-select{
+    .loading{
+        border: none;
+        padding-top: 9px;
+        .opacity(0);
+        .transition(0.3s);
+        &:hover{ border: none; }
+        &.actived{ .opacity(1); }
+    }
+}
+.checkbox-custom {
+    margin-top: 3px;
+
+    i {
+        margin: 0;
+    }
+}
+.permission-box {
+    .row {
+        padding: 0 0 7px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px !important;
+        border: 1px solid #ebebeb;
+
+        h4 {
+            margin-top: 10px;
+        }
+        .checkbox{
+            display: inline;
+            float: right;
+            vertical-align: middle;
+            margin-right: 15px;
+        }
+        .nome-modulo{
+            line-height: 32px;
+        }
+    }
+}
+.widget-head{
+    padding: 0 0 7px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px !important;
+    border: 1px solid #ebebeb;
+    background-color: #F7F7F7;
+
+    label {
+        margin-bottom: 0;
+    }
+}

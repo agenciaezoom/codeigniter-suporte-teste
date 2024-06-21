@@ -1,0 +1,23 @@
+@import '../../../comum/assets/less/_variables.less';
+@import '../../../comum/assets/plugins/slick/_slick.less';
+@import '../../../comum/assets/less/_pagination.less';
+
+#products {
+  .products-wrapper {
+    display: flex;
+    padding: 6rem 0;
+
+    .products-list {
+      flex: 1;
+
+      .slider {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        gap: 1.5rem;
+
+        @import '../../../produtos/assets/less/_produto.less';
+      }
+    }
+
+  }
+}

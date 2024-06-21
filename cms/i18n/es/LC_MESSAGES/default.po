@@ -1,0 +1,2050 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-08 09:14-0200\n"
+"PO-Revision-Date: 2018-01-08 09:15-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../../../modules\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: T_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: _assuntos/controllers/assuntos.php:46 _assuntos/controllers/assuntos.php:66
+#: _assuntos/views/formulario.php:35 _assuntos/views/formulario.php:36
+#: _banners/controllers/banners.php:53 _banners/controllers/banners.php:78
+#: _banners/views/listagem.php:23 _blog/controllers/categorias.php:58
+#: _blog/controllers/categorias.php:79 _blog/controllers/posts.php:71
+#: _blog/controllers/posts.php:94 _blog/controllers/tags.php:51
+#: _blog/controllers/tags.php:70 _blog/views/categorias/formulario.php:52
+#: _blog/views/categorias/listagem.php:22 _blog/views/posts/formulario.php:69
+#: _blog/views/posts/formulario.php:70 _blog/views/posts/listagem.php:21
+#: _blog/views/tags/formulario.php:37 _blog/views/tags/listagem.php:22
+#: _categorias/controllers/categorias.php:50
+#: _categorias/controllers/categorias.php:74
+#: _categorias/views/formulario.php:49 _categorias/views/listagem.php:22
+#: _clientes/controllers/clientes.php:53 _clientes/controllers/clientes.php:78
+#: _clientes/views/listagem.php:23 _historia/controllers/historia.php:48
+#: _historia/controllers/historia.php:72 _historia/views/formulario.php:36
+#: _historia/views/formulario.php:37 _historia/views/listagem.php:13
+#: _noticias/controllers/noticias.php:51 _noticias/controllers/noticias.php:70
+#: _noticias/views/formulario.php:43 _noticias/views/formulario.php:44
+#: _produtos/controllers/produtos.php:53 _produtos/controllers/produtos.php:72
+#: _produtos/views/formulario.php:47 _produtos/views/formulario.php:48
+#: _produtos/views/listagem.php:22
+#: _representantes/controllers/representantes.php:59
+#: _representantes/controllers/representantes.php:78
+#: _representantes/views/listagem.php:22 routes/views/formulario.php:21
+#: routes/views/formulario.php:50 routes/views/formulario.php:51
+#: routes/views/listagem.php:22
+msgid "Título"
+msgstr "Título"
+
+#: _assuntos/controllers/assuntos.php:47 _assuntos/controllers/assuntos.php:67
+#: _assuntos/views/formulario.php:39 _assuntos/views/formulario.php:40
+#, fuzzy
+#| msgid "E-mail"
+msgid "E-mails"
+msgstr "E- mail "
+
+#: _assuntos/views/formulario.php:12 _banners/views/listagem.php:28
+#: _blog/views/categorias/formulario.php:17
+#: _blog/views/categorias/listagem.php:27 _blog/views/posts/formulario.php:24
+#: _blog/views/posts/listagem.php:27 _blog/views/tags/formulario.php:15
+#: _blog/views/tags/listagem.php:27 _categorias/views/formulario.php:15
+#: _categorias/views/listagem.php:27 _clientes/views/listagem.php:28
+#: _historia/views/listagem.php:23 _noticias/views/formulario.php:23
+#: _produtos/views/listagem.php:27 _representantes/views/listagem.php:27
+#: administracao/views/grupos/grupos.php:52
+#: administracao/views/usuarios/usuarios.php:56 paginas/views/permissoes.php:10
+#: paginas/views/permissoes.php:22 paginas/views/permissoes.php:34
+#: paginas/views/permissoes.php:46 paginas/views/permissoes.php:58
+#: paginas/views/permissoes.php:70 paginas/views/permissoes.php:82
+#: paginas/views/permissoes.php:94 paginas/views/permissoes.php:106
+#: paginas/views/permissoes.php:118 paginas/views/permissoes.php:130
+#: paginas/views/permissoes.php:142 paginas/views/permissoes.php:154
+#: paginas/views/permissoes.php:166 paginas/views/permissoes.php:178
+#: paginas/views/permissoes.php:190 paginas/views/permissoes.php:202
+#: paginas/views/permissoes.php:214 paginas/views/permissoes.php:226
+#: routes/views/listagem.php:27
+msgid "Ativo"
+msgstr "Activo"
+
+#: _assuntos/views/formulario.php:15 _banners/views/listagem.php:59
+#: _blog/views/categorias/formulario.php:20
+#: _blog/views/categorias/formulario.php:33
+#: _blog/views/categorias/listagem.php:55
+#: _blog/views/comentarios/listagem.php:36 _blog/views/posts/formulario.php:27
+#: _blog/views/posts/listagem.php:57 _blog/views/tags/formulario.php:18
+#: _blog/views/tags/listagem.php:55 _categorias/views/formulario.php:18
+#: _categorias/views/listagem.php:55 _clientes/views/listagem.php:59
+#: _historia/views/formulario.php:20 _historia/views/listagem.php:46
+#: _historia/views/listagem.php:55 _noticias/views/formulario.php:26
+#: _produtos/views/formulario.php:19 _produtos/views/listagem.php:55
+#: _representantes/views/listagem.php:56
+#: administracao/views/empresas/formulario.php:65
+#: administracao/views/empresas/formulario.php:78
+#: administracao/views/empresas/listagem.php:79
+#: administracao/views/empresas/listagem.php:87
+#: administracao/views/empresas/listagem.php:94
+#: administracao/views/empresas/listagem.php:102
+#: administracao/views/grupos/cadastrar.php:7
+#: administracao/views/grupos/editar.php:7
+#: administracao/views/grupos/grupos.php:74
+#: administracao/views/grupos/grupos.php:83
+#: administracao/views/usuarios/formulario.php:62
+#: administracao/views/usuarios/formulario.php:77
+#: administracao/views/usuarios/usuarios.php:82
+#: administracao/views/usuarios/usuarios.php:92 comum/views/comentarios.php:69
+#: comum/views/comentarios.php:77 comum/views/modal.php:10
+#: routes/views/listagem.php:55
+msgid "Sim"
+msgstr "Sí"
+
+#: _assuntos/views/formulario.php:18 _banners/views/listagem.php:62
+#: _blog/views/categorias/formulario.php:23
+#: _blog/views/categorias/formulario.php:36
+#: _blog/views/categorias/listagem.php:58
+#: _blog/views/comentarios/listagem.php:39 _blog/views/posts/formulario.php:30
+#: _blog/views/posts/listagem.php:60 _blog/views/tags/formulario.php:21
+#: _blog/views/tags/listagem.php:58 _categorias/views/formulario.php:21
+#: _categorias/views/listagem.php:58 _clientes/views/listagem.php:62
+#: _historia/views/formulario.php:23 _historia/views/listagem.php:49
+#: _historia/views/listagem.php:55 _noticias/views/formulario.php:29
+#: _produtos/views/formulario.php:22 _produtos/views/listagem.php:58
+#: _representantes/views/listagem.php:59
+#: administracao/views/empresas/formulario.php:68
+#: administracao/views/empresas/formulario.php:81
+#: administracao/views/empresas/listagem.php:82
+#: administracao/views/empresas/listagem.php:87
+#: administracao/views/empresas/listagem.php:97
+#: administracao/views/empresas/listagem.php:102
+#: administracao/views/grupos/editar.php:10
+#: administracao/views/grupos/grupos.php:77
+#: administracao/views/grupos/grupos.php:83
+#: administracao/views/usuarios/formulario.php:65
+#: administracao/views/usuarios/formulario.php:80
+#: administracao/views/usuarios/usuarios.php:85
+#: administracao/views/usuarios/usuarios.php:92 comum/views/comentarios.php:72
+#: comum/views/comentarios.php:77 comum/views/modal.php:10
+#: routes/views/listagem.php:58
+msgid "Não"
+msgstr "No"
+
+#: _assuntos/views/listagem.php:89 _banners/views/listagem.php:86
+#: _blog/views/categorias/listagem.php:82 _blog/views/posts/listagem.php:87
+#: _blog/views/tags/listagem.php:82 _categorias/views/listagem.php:82
+#: _clientes/views/listagem.php:86 _historia/views/listagem.php:73
+#: _noticias/views/listagem.php:82 _produtos/views/listagem.php:82
+#: _representantes/views/listagem.php:83
+#: administracao/views/empresas/listagem.php:120 routes/views/listagem.php:93
+msgid "Nenhum dado cadastrado."
+msgstr "Ningún dato registrado."
+
+#: _assuntos/views/listagem.php:97 _banners/views/listagem.php:94
+#: _blog/views/categorias/listagem.php:90 _blog/views/posts/listagem.php:95
+#: _blog/views/tags/listagem.php:90 _categorias/views/listagem.php:90
+#: _clientes/views/listagem.php:94 _contato/views/listagem.php:105
+#: _historia/views/listagem.php:79 _noticias/views/listagem.php:90
+#: _produtos/views/listagem.php:90 _representantes/views/listagem.php:91
+#: administracao/views/empresas/listagem.php:128
+#: administracao/views/grupos/grupos.php:102
+#: administracao/views/usuarios/usuarios.php:120
+#: comum/views/comentarios.php:102 routes/views/listagem.php:101
+msgid "Excluir selecionados"
+msgstr "Excluir seleccionados"
+
+#: _banners/controllers/banners.php:49 _banners/controllers/banners.php:72
+#: _banners/views/listagem.php:20 _categorias/controllers/categorias.php:47
+#: _categorias/controllers/categorias.php:69
+#: _clientes/controllers/clientes.php:49 _clientes/controllers/clientes.php:72
+#: _clientes/views/listagem.php:20 _historia/controllers/historia.php:45
+#: _historia/controllers/historia.php:67 _noticias/views/listagem.php:17
+msgid "Imagem"
+msgstr "Imagen"
+
+#: _banners/controllers/banners.php:52 _banners/controllers/banners.php:77
+#: _clientes/controllers/clientes.php:52 _clientes/controllers/clientes.php:77
+msgid "Link"
+msgstr "Link"
+
+#: _banners/views/listagem.php:31 _blog/views/categorias/listagem.php:30
+#: _blog/views/comentarios/listagem.php:21 _blog/views/posts/listagem.php:30
+#: _blog/views/tags/listagem.php:30 _categorias/views/listagem.php:30
+#: _clientes/views/listagem.php:31 _contato/views/listagem.php:42
+#: _produtos/views/listagem.php:30 _representantes/views/listagem.php:30
+#: _sales/views/visualizar.php:52 administracao/views/empresas/listagem.php:58
+#: administracao/views/grupos/grupos.php:53
+#: administracao/views/usuarios/usuarios.php:57 comum/views/comentarios.php:47
+#: comum/views/multiple-select-table.php:41 routes/views/listagem.php:30
+msgid "Ações"
+msgstr "Acciones"
+
+#: _banners/views/listagem.php:73 _blog/views/categorias/listagem.php:69
+#: _blog/views/tags/listagem.php:69 _categorias/views/listagem.php:69
+#: _clientes/views/listagem.php:73 _produtos/views/listagem.php:69
+#: _representantes/views/listagem.php:70
+#: administracao/controllers/empresas.php:92
+#: administracao/controllers/usuarios.php:84
+#: administracao/views/empresas/listagem.php:107
+#: administracao/views/grupos/editar.php:40
+#: administracao/views/grupos/grupos.php:88
+#: administracao/views/usuarios/usuarios.php:100 routes/views/listagem.php:73
+msgid "Editar"
+msgstr "Editar"
+
+#: _banners/views/listagem.php:75 _blog/views/categorias/listagem.php:71
+#: _blog/views/comentarios/listagem.php:49 _blog/views/tags/listagem.php:71
+#: _categorias/views/listagem.php:71 _clientes/views/listagem.php:75
+#: _produtos/views/listagem.php:71 _representantes/views/listagem.php:72
+#: administracao/views/empresas/listagem.php:109
+#: administracao/views/empresas/tab_association.php:37
+#: administracao/views/grupos/grupos.php:91
+#: administracao/views/usuarios/usuarios.php:103 comum/views/comentarios.php:84
+#: comum/views/multiple-select-table.php:55 routes/views/listagem.php:75
+msgid "Excluir"
+msgstr "Excluir"
+
+#: _blog/controllers/categorias.php:75 _blog/controllers/posts.php:65
+#: _blog/controllers/posts.php:88 _blog/views/categorias/formulario.php:57
+#: _blog/views/posts/listagem.php:18
+#: administracao/views/empresas/tab_association.php:14
+msgid "Categoria"
+msgstr "Categoría"
+
+#: _blog/controllers/posts.php:66 _blog/controllers/posts.php:89
+#: _blog/views/posts/formulario.php:79 _blog/views/posts/formulario.php:80
+msgid "Autor"
+msgstr ""
+
+#: _blog/controllers/posts.php:67 _blog/controllers/posts.php:90
+#: _blog/views/posts/formulario.php:19
+msgid "Data / Hora"
+msgstr ""
+
+#: _blog/controllers/posts.php:72 _blog/controllers/posts.php:95
+#: _blog/views/posts/formulario.php:84 _historia/views/formulario.php:41
+#: _noticias/views/formulario.php:48
+msgid "Texto"
+msgstr "Texto"
+
+#: _blog/views/categorias/formulario.php:8 _blog/views/posts/formulario.php:7
+#: _blog/views/tags/formulario.php:7 _categorias/views/formulario.php:7
+#: _historia/views/formulario.php:6 _noticias/views/formulario.php:7
+#: _produtos/views/formulario.php:7
+#: administracao/views/usuarios/formulario.php:3
+msgid "Dados Gerais"
+msgstr "Datos generales"
+
+#: _blog/views/categorias/formulario.php:9 _blog/views/posts/formulario.php:8
+#: _noticias/views/formulario.php:8
+#: administracao/views/empresas/formulario.php:9
+msgid "SEO"
+msgstr ""
+
+#: _blog/views/categorias/formulario.php:30
+msgid "Destaque"
+msgstr ""
+
+#: _blog/views/categorias/formulario.php:51 _blog/views/tags/formulario.php:36
+#: _categorias/views/formulario.php:48 paginas/views/permissoes.php:7
+#: routes/views/formulario.php:20
+msgid "Título:"
+msgstr "Título:"
+
+#: _blog/views/categorias/formulario.php:76
+#: _blog/views/posts/formulario.php:105 _noticias/views/formulario.php:64
+#, fuzzy
+#| msgid "Keywords"
+msgid "Meta Keywords"
+msgstr "Keywords"
+
+#: _blog/views/categorias/formulario.php:80
+#: _blog/views/posts/formulario.php:109 _noticias/views/formulario.php:68
+#, fuzzy
+#| msgid "Description"
+msgid "Meta Description"
+msgstr "Description"
+
+#: _blog/views/categorias/formulario.php:90 _blog/views/tags/formulario.php:46
+#: _categorias/views/formulario.php:75
+#: administracao/views/empresas/formulario.php:256
+#: administracao/views/grupos/cadastrar.php:37
+#: administracao/views/grupos/editar.php:38
+#: administracao/views/usuarios/modal.php:21 comum/views/modal-category.php:22
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: _blog/views/categorias/formulario.php:91 _blog/views/tags/formulario.php:47
+#: _categorias/views/formulario.php:76
+#: administracao/views/empresas/formulario.php:257
+#: paginas/views/formulario.php:229
+msgid "Salvar"
+msgstr "Guardar"
+
+#: _blog/views/categorias/formulario.php:91 _blog/views/tags/formulario.php:47
+#: _categorias/views/formulario.php:76 _sales/views/visualizar.php:6
+#: administracao/controllers/empresas.php:98
+#: administracao/controllers/usuarios.php:91
+#: administracao/views/empresas/formulario.php:257
+#: administracao/views/empresas/listagem.php:6
+#: administracao/views/grupos/cadastrar.php:39
+#: administracao/views/grupos/grupos.php:6
+#: administracao/views/usuarios/usuarios.php:6 comum/views/busca.php:5
+msgid "Cadastrar"
+msgstr "Registrar"
+
+#: _blog/views/comentarios/listagem.php:6 _sales/views/visualizar.php:28
+#: administracao/views/empresas/listagem.php:31
+#: administracao/views/grupos/grupos.php:31
+#: administracao/views/usuarios/usuarios.php:32 comum/views/busca.php:38
+#: comum/views/comentarios.php:22
+msgid "Limpar Busca"
+msgstr "Borrar la búsqueda"
+
+#: _blog/views/comentarios/listagem.php:12 _blog/views/posts/listagem.php:17
+#: _contato/views/listagem.php:39 _noticias/views/formulario.php:18
+#: comum/views/comentarios.php:44
+msgid "Data"
+msgstr "Fecha"
+
+#: _blog/views/comentarios/listagem.php:13 _blog/views/comentarios/modal.php:10
+msgid "Post"
+msgstr ""
+
+#: _blog/views/comentarios/listagem.php:14 _blog/views/comentarios/modal.php:12
+#: _sales/views/formulario.php:16 _sales/views/formulario.php:18
+#: _sales/views/visualizar.php:49 administracao/controllers/usuarios.php:106
+#: administracao/controllers/usuarios.php:145
+#: administracao/views/empresas/listagem.php:55
+#: administracao/views/usuarios/formulario.php:19
+#: comum/views/comentarios.php:45 comum/views/multiple-select-table.php:40
+msgid "Nome"
+msgstr "Nombre"
+
+#: _blog/views/comentarios/listagem.php:15
+#, fuzzy
+#| msgid "E-mail"
+msgid "Email"
+msgstr "E- mail "
+
+#: _blog/views/comentarios/listagem.php:18 comum/views/comentarios.php:46
+msgid "Aprovado"
+msgstr "Aprobado"
+
+#: _blog/views/comentarios/listagem.php:65
+#, fuzzy
+#| msgid "Nenhum usuário cadastrado."
+msgid "Nenhum comentário cadastrado"
+msgstr "Ningún usuario registrado."
+
+#: _blog/views/comentarios/listagem.php:67
+msgid " para o post selecionado."
+msgstr ""
+
+#: _blog/views/comentarios/modal.php:10
+#, fuzzy
+#| msgid "Editar Podcast"
+msgid "Editar Post"
+msgstr "Editar podcast"
+
+#: _blog/views/comentarios/modal.php:14 _contato/views/listagem.php:29
+#: _sales/views/formulario.php:25 _sales/views/formulario.php:27
+#: administracao/controllers/usuarios.php:108
+#: administracao/controllers/usuarios.php:147
+#: administracao/views/empresas/formulario.php:36
+#: administracao/views/usuarios/formulario.php:31
+msgid "E-mail"
+msgstr "E- mail "
+
+#: _blog/views/comentarios/modal.php:16
+#, fuzzy
+#| msgid "Comentários"
+msgid "Comentário"
+msgstr "Comentarios"
+
+#: _blog/views/posts/formulario.php:9 _noticias/views/formulario.php:9
+#: _produtos/views/formulario.php:8
+msgid "Imagens"
+msgstr "Imágenes"
+
+#: _blog/views/posts/formulario.php:10
+msgid "Vídeos"
+msgstr "Vídeos"
+
+#: _blog/views/posts/formulario.php:39 _categorias/views/formulario.php:30
+msgid "Categorias"
+msgstr "Categorías"
+
+#: _blog/views/posts/formulario.php:41 _categorias/views/formulario.php:32
+#: comum/views/modal-category.php:11
+msgid "Selecione a categoria"
+msgstr "Seleccione la categoría"
+
+#: _blog/views/posts/formulario.php:52
+#, fuzzy
+#| msgid "Tags"
+msgid "Tags:"
+msgstr "Etiquetas"
+
+#: _blog/views/posts/formulario.php:74 _blog/views/posts/formulario.php:75
+#, fuzzy
+#| msgid "Título"
+msgid "Subtítulo"
+msgstr "Título"
+
+#: _blog/views/posts/formulario.php:92
+#, fuzzy
+#| msgid "Selecione a notícia"
+msgid "Fonte da notícia"
+msgstr "Seleccione la noticia"
+
+#: _blog/views/posts/listagem.php:24
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: _contato/views/listagem.php:24
+msgid "Remetente"
+msgstr ""
+
+#: _contato/views/listagem.php:34
+msgid "Assunto"
+msgstr "Asunto"
+
+#: _historia/views/formulario.php:13
+msgid "Ano:"
+msgstr ""
+
+#: _historia/views/formulario.php:17 _produtos/views/formulario.php:16
+#: administracao/views/empresas/formulario.php:62
+#: administracao/views/grupos/cadastrar.php:5
+#: administracao/views/grupos/editar.php:4
+#: administracao/views/usuarios/formulario.php:59
+msgid "Ativo:"
+msgstr "Activo:"
+
+#: _historia/views/listagem.php:18
+#, fuzzy
+#| msgid "Assunto"
+msgid "Ano"
+msgstr "Asunto"
+
+#: _produtos/views/formulario.php:29
+#, fuzzy
+#| msgid "Selecione a categoria"
+msgid "Selecione uma categoria:"
+msgstr "Seleccione la categoría"
+
+#: _produtos/views/formulario.php:32
+#, fuzzy
+#| msgid "Selecione a categoria"
+msgid "Selecione uma categoria"
+msgstr "Seleccione la categoría"
+
+#: _produtos/views/formulario.php:52 _produtos/views/formulario.php:53
+#, fuzzy
+#| msgid "Frequência"
+msgid "Referência"
+msgstr "Frecuencia"
+
+#: _produtos/views/formulario.php:57
+msgid "Descrição"
+msgstr "Descripción"
+
+#: _representantes/views/formulario.php:7 _sales/views/formulario.php:6
+#: administracao/views/empresas/formulario.php:7
+msgid "Localização"
+msgstr "Dirección"
+
+#: _sales/views/formulario.php:5 administracao/views/empresas/formulario.php:6
+msgid "Dados"
+msgstr "Datos"
+
+#: _sales/views/formulario.php:34 _sales/views/formulario.php:36
+#: administracao/views/empresas/formulario.php:11
+msgid "Site"
+msgstr "Sitio"
+
+#: _sales/views/formulario.php:43
+#, fuzzy
+#| msgid "Telefone"
+msgid "Telefone 1"
+msgstr "Teléfono"
+
+#: _sales/views/formulario.php:52 _sales/views/formulario.php:54
+#, fuzzy
+#| msgid "Telefone"
+msgid "Telefone 2"
+msgstr "Teléfono"
+
+#: _sales/views/visualizar.php:12 administracao/views/empresas/listagem.php:13
+#: administracao/views/grupos/grupos.php:13
+#: administracao/views/usuarios/usuarios.php:13 comum/views/busca.php:23
+#: comum/views/comentarios.php:4
+msgid "Visualizar: 10"
+msgstr "Visualizar : 10"
+
+#: _sales/views/visualizar.php:13 administracao/views/empresas/listagem.php:14
+#: administracao/views/grupos/grupos.php:14
+#: administracao/views/usuarios/usuarios.php:14 comum/views/busca.php:24
+#: comum/views/comentarios.php:5
+msgid "Visualizar: 25"
+msgstr "Visualizar : 25"
+
+#: _sales/views/visualizar.php:14 administracao/views/empresas/listagem.php:15
+#: administracao/views/grupos/grupos.php:15
+#: administracao/views/usuarios/usuarios.php:15 comum/views/busca.php:25
+#: comum/views/comentarios.php:6
+msgid "Visualizar: 50"
+msgstr "Visualizar : 50"
+
+#: _sales/views/visualizar.php:15 administracao/views/empresas/listagem.php:16
+#: administracao/views/grupos/grupos.php:16
+#: administracao/views/usuarios/usuarios.php:16 comum/views/busca.php:26
+#: comum/views/comentarios.php:7
+msgid "Visualizar: 100"
+msgstr "Visualizar : 100"
+
+#: _sales/views/visualizar.php:50
+#: administracao/views/empresas/formulario.php:28
+#: administracao/views/usuarios/formulario.php:27
+msgid "Telefone"
+msgstr "Teléfono"
+
+#: _sales/views/visualizar.php:51 endereco/views/endereco.php:26
+msgid "Cidade"
+msgstr "Ciudad"
+
+#: administracao/controllers/empresas.php:50
+msgid "Exibindo resultados "
+msgstr "Mostrando resultados"
+
+#: administracao/controllers/empresas.php:50
+msgid " de um total de "
+msgstr "de un total de"
+
+#: administracao/controllers/empresas.php:52
+msgid "Não há resultados para esta busca."
+msgstr "No hay resultados para esta búsqueda."
+
+#: administracao/controllers/empresas.php:59
+#: administracao/controllers/empresas.php:60
+#: administracao/controllers/empresas.php:91
+#: administracao/controllers/empresas.php:92
+#: administracao/controllers/empresas.php:98
+#, fuzzy
+#| msgid "Impressões"
+msgid "Empresas"
+msgstr "Impresiones"
+
+#: administracao/controllers/empresas.php:87
+msgid "Você não tem permissão para realizar esta operação."
+msgstr "Usted no tiene permiso para realizar esta operación."
+
+#: administracao/controllers/empresas.php:97
+#, fuzzy
+#| msgid "Cadastrar Editoriais"
+msgid "Cadastrar Empresas"
+msgstr "Registar Editoriales"
+
+#: administracao/controllers/empresas.php:133
+#: administracao/controllers/grupos.php:107
+#: administracao/controllers/usuarios.php:128
+msgid "Registro inserido com sucesso!"
+msgstr "Registro incluido con éxito"
+
+#: administracao/controllers/empresas.php:136
+msgid "Ocorreu um erro inesperado no cadastro"
+msgstr "Ocurrió un error inesperado en el registro"
+
+#: administracao/controllers/empresas.php:154
+#: administracao/controllers/grupos.php:127
+#: administracao/controllers/usuarios.php:169
+msgid "Registro editado com sucesso!"
+msgstr "Registro editado con éxito"
+
+#: administracao/controllers/empresas.php:157
+msgid "Ocorreu um erro inesperado na edição"
+msgstr "Ocurrió un error inesperado en la edición"
+
+#: administracao/controllers/empresas.php:160
+msgid "Id Inválido"
+msgstr "Id inválida"
+
+#: administracao/controllers/empresas.php:174
+msgid "Ordem alterada com sucesso"
+msgstr "Orden modificada con éxito"
+
+#: administracao/controllers/grupos.php:144
+#: comum/controllers/comentarios.php:41 comum/controllers/comentarios.php:64
+msgid "Exclusão efetuada com sucesso!"
+msgstr "Orden modificada con éxito"
+
+#: administracao/controllers/grupos.php:187
+#: administracao/views/empresas/listagem.php:56
+msgid "Status"
+msgstr "Estado"
+
+#: administracao/controllers/grupos.php:188
+msgid "ID de ativação inválido."
+msgstr "OD de activación inválido"
+
+#: administracao/controllers/usuarios.php:48
+#: administracao/controllers/usuarios.php:49
+#: administracao/controllers/usuarios.php:84
+#: administracao/controllers/usuarios.php:91
+msgid "Usuários"
+msgstr "Usuarios"
+
+#: administracao/controllers/usuarios.php:49
+#: administracao/controllers/usuarios.php:84
+#: administracao/controllers/usuarios.php:91
+msgid "Administração"
+msgstr "Administración"
+
+#: administracao/controllers/usuarios.php:83
+msgid "Editar Usuários"
+msgstr "Editar Usuarios"
+
+#: administracao/controllers/usuarios.php:84
+#: administracao/controllers/usuarios.php:91
+msgid "Controle de Usuários"
+msgstr "Control de usuarios"
+
+#: administracao/controllers/usuarios.php:90
+msgid "Cadastrar Usuários"
+msgstr "Registrar Usuarios"
+
+#: administracao/controllers/usuarios.php:107
+#: administracao/controllers/usuarios.php:146
+#: administracao/views/usuarios/usuarios.php:54
+msgid "Usuário"
+msgstr "Usuario"
+
+#: administracao/controllers/usuarios.php:109
+#: administracao/controllers/usuarios.php:198
+#: administracao/views/usuarios/formulario.php:49
+#: administracao/views/usuarios/modal.php:11 login/views/login.php:12
+msgid "Senha"
+msgstr "Contraseña"
+
+#: administracao/controllers/usuarios.php:110
+#: administracao/controllers/usuarios.php:199
+msgid "Repertir Senha"
+msgstr "Repetir contraseña"
+
+#: administracao/controllers/usuarios.php:111
+#: administracao/controllers/usuarios.php:149
+#: administracao/views/grupos/grupos.php:51
+#: administracao/views/usuarios/usuarios.php:55
+msgid "Grupo"
+msgstr "Grupo"
+
+#: administracao/controllers/usuarios.php:113
+#: administracao/controllers/usuarios.php:114
+#: administracao/controllers/usuarios.php:201
+#: administracao/controllers/usuarios.php:202
+msgid "Os campos de senhas devem ser preenchidos e devem ser iguais."
+msgstr ""
+"Los campos de las contraseñas deben ser completados y deben ser iguales."
+
+#: administracao/controllers/usuarios.php:122
+#: administracao/controllers/usuarios.php:163
+msgid "Este nome de usuário está sendo utilizado por outro usuário."
+msgstr "Este nombre de usuario ya es utilizado por otro usuario."
+
+#: administracao/controllers/usuarios.php:124
+#: administracao/controllers/usuarios.php:165
+msgid "Este e-mail já está sendo utilizado por outro usuário."
+msgstr "Este E-mail ya es utilizado por otro usuario."
+
+#: administracao/controllers/usuarios.php:207
+msgid "Senha alterada com sucesso!"
+msgstr "Contraseña modificada con éxito"
+
+#: administracao/views/empresas/formulario.php:8
+msgid "Redes Sociais"
+msgstr "Redes Sociales"
+
+#: administracao/views/empresas/formulario.php:19
+msgid "Razão Social:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:20
+msgid "Razão Social"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:23
+msgid "Nome Fantasia:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:24
+msgid "Nome Fantasia"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:27
+#: administracao/views/usuarios/formulario.php:26
+msgid "Telefone:"
+msgstr "Teléfono:"
+
+#: administracao/views/empresas/formulario.php:31
+msgid "Sac:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:32
+msgid "Sac"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:35
+#: administracao/views/usuarios/formulario.php:30 comum/views/modal.php:9
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: administracao/views/empresas/formulario.php:39
+msgid "Google Tag Manager:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:40
+msgid "Google Tag Manager"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:44
+msgid "Idioma Principal:"
+msgstr "Idioma Principal:"
+
+#: administracao/views/empresas/formulario.php:52
+msgid "Idiomas Disponíveis:"
+msgstr "Idiomas disponibles:"
+
+#: administracao/views/empresas/formulario.php:53
+msgid "Nenhum idioma selecionado"
+msgstr "Ningún idioma seleccionado"
+
+#: administracao/views/empresas/formulario.php:75
+msgid "Site Ativo:"
+msgstr "Sitio activo:"
+
+#: administracao/views/empresas/formulario.php:126
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: administracao/views/empresas/formulario.php:130
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: administracao/views/empresas/formulario.php:134
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: administracao/views/empresas/formulario.php:138
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: administracao/views/empresas/formulario.php:142
+msgid "Soundcloud:"
+msgstr "Soundcloud:"
+
+#: administracao/views/empresas/formulario.php:183
+#: paginas/views/permissoes.php:79
+msgid "Slug:"
+msgstr "Pegar:"
+
+#: administracao/views/empresas/formulario.php:184
+msgid "Slug"
+msgstr "Pegar"
+
+#: administracao/views/empresas/formulario.php:188
+msgid "Domínio:"
+msgstr "Dominio:"
+
+#: administracao/views/empresas/formulario.php:189
+#: routes/views/formulario.php:46
+msgid "URL"
+msgstr "URL"
+
+#: administracao/views/empresas/formulario.php:193
+#, fuzzy
+#| msgid "Idioma Principal:"
+msgid "Cor Principal:"
+msgstr "Idioma Principal:"
+
+#: administracao/views/empresas/formulario.php:196
+#, fuzzy
+#| msgid "Menu Principal"
+msgid "Cor Principal"
+msgstr "Menú Principal"
+
+#: administracao/views/empresas/formulario.php:203
+msgid "Cor Degradê de:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:206
+msgid "Cor Degradê de"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:210
+msgid "Cor Degradê para:"
+msgstr ""
+
+#: administracao/views/empresas/formulario.php:213
+msgid "Cor Degradê para"
+msgstr ""
+
+#: administracao/views/empresas/listagem.php:21
+#: administracao/views/grupos/grupos.php:21
+#: administracao/views/usuarios/usuarios.php:21 comum/views/busca.php:31
+#: comum/views/comentarios.php:12
+msgid "Buscar por..."
+msgstr "Buscar por"
+
+#: administracao/views/empresas/listagem.php:57
+#, fuzzy
+#| msgid "Status"
+msgid "Status do Site"
+msgstr "Estado"
+
+#: administracao/views/empresas/tab_association.php:3
+msgid "Selecione uma associação:"
+msgstr "Seleccione una Asociación"
+
+#: administracao/views/empresas/tab_association.php:13
+msgid "Associação"
+msgstr "Asociación"
+
+#: administracao/views/empresas/tab_association.php:15
+msgid "Ação"
+msgstr "Acción"
+
+#: administracao/views/empresas/tab_association.php:25
+msgid "Selecione a Categoria"
+msgstr "Seleccione la Categoría"
+
+#: administracao/views/grupos/cadastrar.php:2
+#: administracao/views/grupos/editar.php:2
+msgid "Informações do Grupo"
+msgstr "Informaciones del Grupo"
+
+#: administracao/views/grupos/cadastrar.php:12
+#: administracao/views/grupos/editar.php:16
+#: administracao/views/usuarios/formulario.php:18 comum/views/modal.php:8
+msgid "Nome:"
+msgstr "Nombre"
+
+#: administracao/views/grupos/cadastrar.php:27
+#: administracao/views/grupos/editar.php:30
+#: administracao/views/usuarios/formulario.php:5
+msgid "Permissões"
+msgstr "Permisos"
+
+#: administracao/views/usuarios/formulario.php:22
+msgid "Login:"
+msgstr "Cuenta:"
+
+#: administracao/views/usuarios/formulario.php:36
+#, fuzzy
+#| msgid "Idiomas Disponíveis:"
+msgid "Empresas Disponíveis:"
+msgstr "Idiomas disponibles:"
+
+#: administracao/views/usuarios/formulario.php:37
+#, fuzzy
+#| msgid "Selecione uma empresa"
+msgid "Selecione as empresas"
+msgstr "Seleccione una empresa"
+
+#: administracao/views/usuarios/formulario.php:48
+msgid "Senha:"
+msgstr "Contraseña:"
+
+#: administracao/views/usuarios/formulario.php:52
+#: administracao/views/usuarios/modal.php:14
+msgid "Repetir Senha:"
+msgstr "Contraseña:"
+
+#: administracao/views/usuarios/formulario.php:53
+#: administracao/views/usuarios/modal.php:15 esqueci/views/esqueci.php:24
+msgid "Repetir Senha"
+msgstr "Contraseña"
+
+#: administracao/views/usuarios/formulario.php:74
+msgid "Administrador:"
+msgstr "Administrador:"
+
+#: administracao/views/usuarios/formulario.php:107
+msgid "Grupo:"
+msgstr "Grupo:"
+
+#: administracao/views/usuarios/formulario.php:109
+msgid "Selecione o grupo do usuário"
+msgstr "Seleccione el grupo del usuario"
+
+#: administracao/views/usuarios/modal.php:10
+msgid "Nova Senha:"
+msgstr "Nueva Contraseña:"
+
+#: administracao/views/usuarios/modal.php:22
+msgid "Alterar"
+msgstr "Modificar"
+
+#: administracao/views/usuarios/usuarios.php:97 comum/views/header.php:35
+msgid "Alterar Senha"
+msgstr "Modificar la contraseña"
+
+#: administracao/views/usuarios/usuarios.php:114
+msgid "Nenhum usuário cadastrado."
+msgstr "Ningún usuario registrado."
+
+#: comum/controllers/comentarios.php:16
+msgid "Esta página não existe ;("
+msgstr "Esta página no existe ;("
+
+#: comum/controllers/comentarios.php:24
+msgid "ID do comentário inválido."
+msgstr "ID del comentario inválido"
+
+#: comum/controllers/comentarios.php:28
+msgid "Comentário aprovado com sucesso!"
+msgstr "Comentario aprobado con éxito"
+
+#: comum/controllers/comentarios.php:28
+msgid "Comentário desaprovado com sucesso!"
+msgstr "Comentario desaprobado con éxito"
+
+#: comum/controllers/comentarios.php:44 comum/controllers/comentarios.php:66
+msgid "ID de exclusão inválido"
+msgstr "ID de exclusión inválido"
+
+#: comum/controllers/comentarios.php:60
+msgid "IDs de exclusão inválidos."
+msgstr "IDs de exclusión inválidos."
+
+#: comum/views/breadcrumb.php:3
+msgid "Home"
+msgstr "Inicio"
+
+#: comum/views/busca.php:11
+msgid "Exportar"
+msgstr "Exportar"
+
+#: comum/views/busca.php:18
+#, fuzzy
+#| msgid "Exportar Resultados"
+msgid "Buscar/Filtrar Resultados"
+msgstr "Exportar Resultados"
+
+#: comum/views/comentarios.php:82
+msgid "Visualizar"
+msgstr "Visualizar"
+
+#: comum/views/comentarios.php:95
+msgid "Nenhum comentário"
+msgstr "Ningún comentario"
+
+#: comum/views/comentarios.php:95
+msgid "encontrado"
+msgstr "encontrado"
+
+#: comum/views/comentarios.php:95
+msgid "enviado"
+msgstr "enviado"
+
+#: comum/views/footer.php:2
+msgid "Todos os direitos reservados - Versão"
+msgstr "Todos los derechos reservados - Versión"
+
+#: comum/views/header.php:13
+msgid "Idioma"
+msgstr "Idioma"
+
+#: comum/views/header.php:13
+msgid "IDIOMA"
+msgstr "IDIOMA"
+
+#: comum/views/header.php:34
+msgid "Configurações"
+msgstr "Configuraciones"
+
+#: comum/views/header.php:36
+msgid "Sair"
+msgstr "Salir"
+
+#: comum/views/modal-category.php:5
+msgid "Escolha uma categoria para vincular"
+msgstr "Escoja una categoría para vincular"
+
+#: comum/views/modal-category.php:5
+msgid "Escolha uma categoria para desvincular"
+msgstr "Escoja una categoría para desvincular"
+
+#: comum/views/modal-category.php:23
+msgid "Vincular"
+msgstr "Vincular"
+
+#: comum/views/modal-category.php:23
+msgid "Desvincular"
+msgstr "Desvincular"
+
+#: comum/views/modal-template-2.php:15
+msgid "Data Publicação:"
+msgstr "Fecha de publicación"
+
+#: comum/views/modal-template-2.php:28
+msgid "Publicado Por:"
+msgstr "Publicado por:"
+
+#: comum/views/modal.php:5
+msgid "Comentário recebido em:"
+msgstr "Comentario recibido en:"
+
+#: comum/views/modal.php:10
+msgid "Aprovado:"
+msgstr "Aprobado:"
+
+#: comum/views/modal.php:11
+msgid "IP:"
+msgstr "IP:"
+
+#: comum/views/modal.php:12
+msgid "Comentado no site:"
+msgstr "Comentado en el sitio:"
+
+#: comum/views/modal.php:13
+msgid "Mensagem:"
+msgstr "Mensaje:"
+
+#: endereco/views/endereco.php:13
+msgid "Selecione o país"
+msgstr "Seleccione su país"
+
+#: endereco/views/endereco.php:20
+msgid "CEP"
+msgstr "CEP"
+
+#: endereco/views/endereco.php:23
+msgid "Estado/Província"
+msgstr "Estado / Provincia"
+
+#: endereco/views/endereco.php:29
+msgid "Bairro"
+msgstr "Barrio"
+
+#: endereco/views/endereco.php:32
+msgid "Rua"
+msgstr "Calle"
+
+#: endereco/views/endereco.php:35
+msgid "Número"
+msgstr "Número"
+
+#: endereco/views/endereco.php:38
+msgid "Complemento"
+msgstr "Complemento"
+
+#: endereco/views/endereco.php:40
+msgid "Buscar"
+msgstr "Buscar"
+
+#: esqueci/views/esqueci.php:2
+msgid "Esqueci minha Senha"
+msgstr "Olvidé mi Contraseña"
+
+#: esqueci/views/esqueci.php:8
+msgid "E-mail/Usuário"
+msgstr "E-mail / Usuario"
+
+#: esqueci/views/esqueci.php:9 login/views/login.php:9
+msgid "Digite seu E-mail ou seu nome de Usuário"
+msgstr "Digite su E-mail o su nombre de ususario"
+
+#: esqueci/views/esqueci.php:11 esqueci/views/esqueci.php:28
+msgid "Enviar"
+msgstr "Imagen"
+
+#: esqueci/views/esqueci.php:13 esqueci/views/esqueci.php:30
+msgid "Voltar"
+msgstr "Volver"
+
+#: esqueci/views/esqueci.php:15
+msgid ""
+"Informe seu nome de usuário ou seu e-mail de cadastro e lhe enviaremos um "
+"link para que possa alterar a sua senha."
+msgstr ""
+"Informe su nombre de usuario o su E-mail de registro y le enviaremos un "
+"enlace para que pueda modificar su contraseña."
+
+#: esqueci/views/esqueci.php:20
+msgid "Nova Senha"
+msgstr "Nueva Contraseña"
+
+#: esqueci/views/esqueci.php:21
+msgid "Insira sua Nova Senha"
+msgstr "Ingrese su Nueva Contraseña"
+
+#: esqueci/views/esqueci.php:25
+msgid "Repita sua Nova Senha"
+msgstr "Repita su Nueva Contraseña"
+
+#: gallery/views/images.php:12 gallery/views/videos.php:12
+msgid "Adicionar Imagens"
+msgstr "Agregar Imágenes"
+
+#: gallery/views/images.php:17 gallery/views/videos.php:17
+msgid "Cancelar upload"
+msgstr "Cancelar la subida"
+
+#: gallery/views/images.php:27 gallery/views/videos.php:27
+msgid "Excluir Selecionadas"
+msgstr "Excluir las Seleccionadas"
+
+#: gallery/views/images.php:32 gallery/views/videos.php:32
+msgid "Selecionar todos"
+msgstr "Seleccionar todos"
+
+#: gallery/views/images.php:59 gallery/views/videos.php:47
+msgid "Selecione para Excluir"
+msgstr "Seleccione para Excluir"
+
+#: gallery/views/images.php:117 gallery/views/videos.php:102
+msgid "* Arraste as imagens para alterar a ordem de exibição."
+msgstr "*Arrastre las imágenes para modificar el orden de exhibición."
+
+#: gallery/views/single-file.php:73
+#, fuzzy
+#| msgid " Selecione um arquivo "
+msgid "Selecione um arquivo"
+msgstr "Seleccione un archivo"
+
+#: gallery/views/single-file.php:74
+msgid "Remover arquivo"
+msgstr ""
+
+#: gallery/views/single-file.php:98
+#, fuzzy
+#| msgid "Arquivos"
+msgid "Baixar Arquivo"
+msgstr "Archivos"
+
+#: home/views/home.php:3
+msgid "Olá!"
+msgstr "Hola"
+
+#: home/views/home.php:4
+msgid ""
+"Este sistema foi desenvolvido para que seja uma ferramenta útil e de fácil "
+"utilização, por ter uma interface simples e intuitiva."
+msgstr ""
+"Este sistema fue desarrollado para que sea una herramienta útil y de fácil "
+"utilización, por tener una interface simple e intuitiva."
+
+#: home/views/home.php:5
+msgid ""
+"Utilize o menu ao lado para acessar as sessões disponíveis. Ao clicar em "
+"algum item, será exibida a página de visualização de conteúdo respectivo à "
+"sessão selecionada. Nesta página, você poderá realizar a inclusão de novas "
+"informações, fazer a edição dos itens disponíveis e até mesmo excluir algo "
+"que você não queira mais."
+msgstr ""
+"Utilice el menú a lado para ingresar a las seiones disponibles.  Al dar clic "
+"en algún ítem se mostrará la página de visualización de contenido respectivo "
+"a la sesión seleccionada.  En esta página usted podrá realizar la inclusión "
+"de nuevas informaciones, editar los ítems disponibles e incluso eliminar "
+"algo que usted no desee más."
+
+#: home/views/home.php:6
+msgid ""
+"Qualquer dúvida, sugestão ou problema que você possa ter, não deixe de "
+"enviar-nos uma mensagem através do email:"
+msgstr ""
+"Cualquier duda, sugerencia o problema que usted pueda tener, no deje de "
+"enviarnos un mensaje a través de E-mail."
+
+#: home/views/home.php:6
+msgid "Em breve estaremos respondendo ao seu contato."
+msgstr "En breve responderemos su contacto."
+
+#: home/views/home.php:7
+msgid "Seja bem vindo!"
+msgstr "Bienvenido"
+
+#: login/views/login.php:8
+msgid "Usuário/E-mail"
+msgstr "Usuario / E-mail"
+
+#: login/views/login.php:13
+msgid "Digite sua Senha"
+msgstr "Digite su Contraseña"
+
+#: login/views/login.php:15
+msgid "Entrar"
+msgstr "Ingresar"
+
+#: login/views/login.php:17
+msgid "Esqueci minha senha"
+msgstr "Olvidé mi contraseña"
+
+#: paginas/views/permissoes.php:1
+msgid "Conteúdo"
+msgstr "Contenido"
+
+#: paginas/views/permissoes.php:11 paginas/views/permissoes.php:23
+#: paginas/views/permissoes.php:35 paginas/views/permissoes.php:47
+#: paginas/views/permissoes.php:59 paginas/views/permissoes.php:71
+#: paginas/views/permissoes.php:83 paginas/views/permissoes.php:95
+#: paginas/views/permissoes.php:107 paginas/views/permissoes.php:119
+#: paginas/views/permissoes.php:131 paginas/views/permissoes.php:143
+#: paginas/views/permissoes.php:155 paginas/views/permissoes.php:167
+#: paginas/views/permissoes.php:179 paginas/views/permissoes.php:191
+#: paginas/views/permissoes.php:203 paginas/views/permissoes.php:215
+#: paginas/views/permissoes.php:227
+#, fuzzy
+#| msgid "Ativo"
+msgid "Inativo"
+msgstr "Activo"
+
+#: paginas/views/permissoes.php:19
+#, fuzzy
+#| msgid "Título:"
+msgid "Título com bold:"
+msgstr "Título:"
+
+#: paginas/views/permissoes.php:31
+#, fuzzy
+#| msgid "Título:"
+msgid "Subtítulo:"
+msgstr "Título:"
+
+#: paginas/views/permissoes.php:43
+msgid "Subtítulo com bold:"
+msgstr ""
+
+#: paginas/views/permissoes.php:55
+#, fuzzy
+#| msgid "Área"
+msgid "Área:"
+msgstr "Área"
+
+#: paginas/views/permissoes.php:67
+msgid "Subárea:"
+msgstr ""
+
+#: paginas/views/permissoes.php:91
+msgid "Texto:"
+msgstr "Texto:"
+
+#: paginas/views/permissoes.php:103
+#, fuzzy
+#| msgid "Imagem"
+msgid "Imagem:"
+msgstr "Imagen"
+
+#: paginas/views/permissoes.php:115
+msgid "Dimensões da Imagem:"
+msgstr ""
+
+#: paginas/views/permissoes.php:127
+#, fuzzy
+#| msgid "Arquivos"
+msgid "Arquivo:"
+msgstr "Archivos"
+
+#: paginas/views/permissoes.php:139
+msgid "Link:"
+msgstr "Link:"
+
+#: paginas/views/permissoes.php:151
+#, fuzzy
+#| msgid "Link:"
+msgid "Link Label:"
+msgstr "Link:"
+
+#: paginas/views/permissoes.php:163
+#, fuzzy
+#| msgid "Youtube:"
+msgid "Youtube ID:"
+msgstr "Youtube:"
+
+#: paginas/views/permissoes.php:175
+#, fuzzy
+#| msgid "Status"
+msgid "Status:"
+msgstr "Estado"
+
+#: paginas/views/permissoes.php:187
+msgid "Galeria:"
+msgstr ""
+
+#: paginas/views/permissoes.php:199
+msgid "Galeria de Vídeos:"
+msgstr ""
+
+#: paginas/views/permissoes.php:211
+#, fuzzy
+#| msgid "Editar"
+msgid "Editar:"
+msgstr "Editar"
+
+#: paginas/views/permissoes.php:223
+msgid "Deletar:"
+msgstr ""
+
+#: routes/views/formulario.php:20
+msgid "(Utilize para descrever a rota. Apenas para organizacao.)"
+msgstr "(Utilice para describir la ruta.  Solo para la organización)"
+
+#: routes/views/formulario.php:25
+msgid "Url:"
+msgstr "Url:"
+
+#: routes/views/formulario.php:25
+msgid "(Complemento da url para parametros nao-estaticos. Ex.: (:num)/(:any))"
+msgstr "(Complemento de la url para parámetros no estáticos)"
+
+#: routes/views/formulario.php:30
+msgid "Key:"
+msgstr "Key:"
+
+#: routes/views/formulario.php:30
+msgid "(Chave de array para imprimir os links nas views.)"
+msgstr "(Conjunto de teclas para imprimir el enlace al vistas.)"
+
+#: routes/views/formulario.php:35
+msgid "Método:"
+msgstr "Método:"
+
+#: routes/views/formulario.php:35
+msgid "(Método completo relativo a url. Ex.: produtos/detalhes/$1/$2)"
+msgstr "(Método completo relativo al url)"
+
+#: routes/views/formulario.php:47
+msgid "url"
+msgstr "url"
+
+#: routes/views/formulario.php:54 routes/views/formulario.php:55
+msgid "Description"
+msgstr "Description"
+
+#: routes/views/formulario.php:58 routes/views/formulario.php:59
+msgid "Keywords"
+msgstr "Keywords"
+
+#: routes/views/listagem.php:69 routes/views/listagem.php:86
+#, fuzzy
+#| msgid "Exportar"
+msgid "Exportar SQL"
+msgstr "Exportar"
+
+#: routes/views/listagem.php:69
+msgid "SQL"
+msgstr ""
+
+#: routes/views/listagem.php:71
+msgid "Copiar"
+msgstr ""
+
+#~ msgid "Associações"
+#~ msgstr "Asociaciones"
+
+#~ msgid "Cadastrar Associações"
+#~ msgstr "Registrar Asociaciones"
+
+#~ msgid "Módulos"
+#~ msgstr "Módulos"
+
+#~ msgid "Editar Módulo"
+#~ msgstr "Editar Módulo"
+
+#~ msgid "Cadastrar Módulo"
+#~ msgstr "Registrar Módulo"
+
+#~ msgid "Não foi possível realizar a exclusão."
+#~ msgstr "No fue posible realizar la exclusión."
+
+#~ msgid "Registros excluidos com sucesso!"
+#~ msgstr "Registros excluidos con éxito"
+
+#~ msgid "Ocorreu um erro durante a exclusão multipla."
+#~ msgstr "Ocurrió un error durante la exclusión múltiple."
+
+#~ msgid "Ocorreu um erro durante a exclusão."
+#~ msgstr "Ocurrió un error durante la exclusión."
+
+#~ msgid "Registro ativado com sucesso!"
+#~ msgstr "Registro activado con éxito"
+
+#~ msgid "Registro desativado com sucesso!"
+#~ msgstr "Registro desactivado con éxito"
+
+#~ msgid "O arquivo no upload é maior do que o limite definido !"
+#~ msgstr "El archivo para cargar es de mayor peso que el límite definido"
+
+#~ msgid "o upload não foi completado com sucesso!"
+#~ msgstr "La carga del archivo no pudo completarse con éxito"
+
+#~ msgid "Imagem enviada com sucesso!"
+#~ msgstr "Imagen enviada con éxito"
+
+#~ msgid "Streaming"
+#~ msgstr "Streaming"
+
+#~ msgid "Formulários"
+#~ msgstr "Formularios"
+
+#~ msgid "Doações"
+#~ msgstr "Donaciones"
+
+#~ msgid "Associação:"
+#~ msgstr "Asociación:"
+
+#~ msgid "Nenhuma associação selecionada"
+#~ msgstr "Ninguna asociación sleccionada"
+
+#~ msgid "Analytics:"
+#~ msgstr "Analytics:"
+
+#~ msgid "Analytics"
+#~ msgstr "Analytics"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Aparece no site:"
+#~ msgstr "Aparece en el sitio:"
+
+#~ msgid "Rádio"
+#~ msgstr "Rádio"
+
+#~ msgid "Frequência:"
+#~ msgstr "Frecuencia:"
+
+#~ msgid "Link do Streaming:"
+#~ msgstr "Enlace del streaming:"
+
+#~ msgid "Link do Streaming"
+#~ msgstr "Enlace del streaming"
+
+#~ msgid "Vídeo"
+#~ msgstr "Vídeo"
+
+#~ msgid "Nome do vídeo"
+#~ msgstr "Nombre vídeo"
+
+#~ msgid "Google:"
+#~ msgstr "Google:"
+
+#~ msgid "Pinterest:"
+#~ msgstr "Pinterest:"
+
+#~ msgid "Flickr:"
+#~ msgstr "Flickr:"
+
+#~ msgid "Seja um membro:"
+#~ msgstr "Seja un miembro:"
+
+#~ msgid "Informe os e-mails separados por ,"
+#~ msgstr "Ingrese los e-mails separados por coma "
+
+#~ msgid "Contato:"
+#~ msgstr "Contacto: "
+
+#~ msgid "Newsletter:"
+#~ msgstr "Newsletter:"
+
+#~ msgid "Introdução:"
+#~ msgstr "Introducción:"
+
+#~ msgid "Hierarquia"
+#~ msgstr "Jerarquía"
+
+#~ msgid "Ícone:"
+#~ msgstr "Icono:"
+
+#~ msgid "Ícone"
+#~ msgstr "Icono"
+
+#~ msgid "Informações do Usuário"
+#~ msgstr "Informaciones del Usuario"
+
+#~ msgid "Nome de usuário:"
+#~ msgstr "Nombre del Usuario"
+
+#~ msgid "Associação Principal:"
+#~ msgstr "Asopciación Principal:"
+
+#~ msgid "Selecione uma associação"
+#~ msgstr "Seleccione una Asociación"
+
+#~ msgid "Associações Disponíveis:"
+#~ msgstr "Asociaciones disponibles:"
+
+#~ msgid "Selecione as associações"
+#~ msgstr "Seleccione las Asociaciones"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Excluir Imagem"
+#~ msgstr "Eliminar Imagen"
+
+#~ msgid "Banners"
+#~ msgstr "Banners"
+
+#~ msgid "Editar Banner"
+#~ msgstr "Editar Banner"
+
+#~ msgid "Cadastrar Banner"
+#~ msgstr "Registrar banner"
+
+#~ msgid "Selecione o destino aonde o link irá abrir"
+#~ msgstr "Seleccione el destino a donde va a abrir el enlace"
+
+#~ msgid "Grande"
+#~ msgstr "Grande"
+
+#~ msgid "Pequeno"
+#~ msgstr "Pequeño"
+
+#~ msgid "Tipo"
+#~ msgstr "Tipo"
+
+#~ msgid "Banner"
+#~ msgstr "Banner"
+
+#~ msgid "Notícia"
+#~ msgstr "Noticia:"
+
+#~ msgid "Streaming Vídeo"
+#~ msgstr "Streaming Vídeo"
+
+#~ msgid "Streaming Áudio"
+#~ msgstr "Streaming Audio"
+
+#~ msgid "Eventos"
+#~ msgstr "Eventos"
+
+#~ msgid "Abrir Link"
+#~ msgstr "Abrir enlace"
+
+#~ msgid "Mesma Janela"
+#~ msgstr "Misma Ventana"
+
+#~ msgid "Nova Janela"
+#~ msgstr "Nueva Ventana"
+
+#~ msgid "Selecione o evento"
+#~ msgstr "Seleccione el evento"
+
+#~ msgid "Selecione a área"
+#~ msgstr "Selecciones el área"
+
+#~ msgid "Contatos de Negócio"
+#~ msgstr "Contactos de Negocio"
+
+#~ msgid "Editar Contatos de Negócio"
+#~ msgstr "Editar Contactos de Negocio"
+
+#~ msgid "Cadastrar Contatos de Negócio"
+#~ msgstr "Registrar Contactos de Negocio"
+
+#~ msgid "Editar Página de Contato"
+#~ msgstr "Editar Página de Contacto:"
+
+#~ msgid "Página de Contato"
+#~ msgstr "Página de Contacto:"
+
+#~ msgid "Cadastrar Página de Contato"
+#~ msgstr "Registrar Página de Contacto:"
+
+#~ msgid "E-mail recebido em"
+#~ msgstr "E- mail recibido en"
+
+#~ msgid "Estado"
+#~ msgstr "Estado"
+
+#~ msgid "Mensagem"
+#~ msgstr "Mensaje"
+
+#~ msgid "Mensagem Lida"
+#~ msgstr "Mensaje Leído"
+
+#~ msgid "Mensagem Nova"
+#~ msgstr "Mensaje Nuevo"
+
+#~ msgid "Responder"
+#~ msgstr "Responder"
+
+#~ msgid "Selecione o Site"
+#~ msgstr "Seleccione el Sitio"
+
+#~ msgid "Endereço"
+#~ msgstr "Dirección"
+
+#~ msgid "UF"
+#~ msgstr "UF"
+
+#~ msgid "Categorias de Eventos - Cadastrar"
+#~ msgstr "Categorías de Eventos - Cadastrar "
+
+#~ msgid "Cadastrar Categoria"
+#~ msgstr "Registrar Categoría"
+
+#~ msgid "Editar Categoria"
+#~ msgstr "Editar Categoría"
+
+#~ msgid "Evento"
+#~ msgstr "Evento"
+
+#~ msgid "Editar Evento"
+#~ msgstr "Editar Evento"
+
+#~ msgid "Cadastrar Evento"
+#~ msgstr "Registrar Evento"
+
+#~ msgid "Responsável"
+#~ msgstr "Responsable"
+
+#~ msgid "Selecione a associação"
+#~ msgstr "Seleccione la asociación"
+
+#~ msgid "Adicional"
+#~ msgstr "Adicional"
+
+#~ msgid "Evento particular"
+#~ msgstr "Evento particular"
+
+#~ msgid "Data:"
+#~ msgstr "Fecha:"
+
+#~ msgid "Selecione o responsável"
+#~ msgstr "Seleccione el responsable"
+
+#~ msgid "Linha de Apoio:"
+#~ msgstr "Línea de Apoyo:"
+
+#~ msgid "Linha de Apoio"
+#~ msgstr "Línea de Apoyo"
+
+#~ msgid "Fonte:"
+#~ msgstr "Fuente:"
+
+#~ msgid "Fonte"
+#~ msgstr "Fuente"
+
+#~ msgid "Validade:"
+#~ msgstr "Validez"
+
+#~ msgid "Duração:"
+#~ msgstr "Duración:"
+
+#~ msgid "Selecione as Tags"
+#~ msgstr "Seleccione las Etiquetas"
+
+#~ msgid "Áudio"
+#~ msgstr "Audio"
+
+#~ msgid "Observações"
+#~ msgstr "Observaciones"
+
+#~ msgid "Vídeo:"
+#~ msgstr "Vídeo:"
+
+#~ msgid "Adicionar Vídeo"
+#~ msgstr "Agregar Vídeo"
+
+#~ msgid "Recortar Imagem"
+#~ msgstr "Recortar Imagen"
+
+#~ msgid "Recortar"
+#~ msgstr "Recortar"
+
+#~ msgid "Imagem Principal"
+#~ msgstr "Imagen Principal"
+
+#~ msgid "Exibindo resultados"
+#~ msgstr "Mostrando resultados"
+
+#~ msgid "de um total de"
+#~ msgstr "de un total de"
+
+#~ msgid "Gerenciar Conteúdo"
+#~ msgstr "Administrar Contenidos"
+
+#~ msgid "Id do Conteúdo"
+#~ msgstr "ID de Contenido"
+
+#~ msgid "Você não tem permissão para visualizar este conteúdo."
+#~ msgstr "Usted no tiene permiso para mirar este contenido."
+
+#~ msgid "Editar Conteúdo"
+#~ msgstr "Editar Contenido"
+
+#~ msgid "Gerenciador de Conteúdo"
+#~ msgstr "Administrador de Contenido"
+
+#~ msgid "Cadastrar Conteúdo"
+#~ msgstr "Registrar Contenido"
+
+#~ msgid "Tipo de Conteúdo"
+#~ msgstr "Tipo de Contenido"
+
+#~ msgid "Erro ao cadastrar o conteúdo."
+#~ msgstr "Error al registrar el contenido."
+
+#~ msgid "Erro ao editar o conteúdo."
+#~ msgstr "Error al editar el contenido."
+
+#~ msgid "ID de aprovação inválido."
+#~ msgstr "ID de aprobación inválido."
+
+#~ msgid "Registro aprovado para o site com sucesso!"
+#~ msgstr "Registro aprobado para el sitio con éxito"
+
+#~ msgid "Registro removido do site com sucesso!"
+#~ msgstr "Registro removido del sitio con éxito"
+
+#~ msgid "Ordem atualizada com sucesso!"
+#~ msgstr "Oden actualizada con éxito"
+
+#~ msgid "Ocorreu um erro durante a ação."
+#~ msgstr "Ocurrió un error durante la acción"
+
+#~ msgid "Imagens excluídas com sucesso!"
+#~ msgstr "Imagenes excluídas con éxito"
+
+#~ msgid "Selecione alguma imagem para excluir."
+#~ msgstr "Seleccione alguna imagen para excluir."
+
+#~ msgid "Notícias"
+#~ msgstr "Noticias"
+
+#~ msgid "Tipo de conteúdo:"
+#~ msgstr "Tipo de contenido"
+
+#~ msgid "Menu"
+#~ msgstr "Menú"
+
+#~ msgid "Link Externo"
+#~ msgstr "Enlace Externo"
+
+#~ msgid "Site:"
+#~ msgstr "Sitio:"
+
+#~ msgid "Selecione o Menu:"
+#~ msgstr "Seleccione el Menú:"
+
+#~ msgid "Menu principal"
+#~ msgstr "Menú principal"
+
+#~ msgid "Selecione uma notícia:"
+#~ msgstr "Seleccione una noticia:"
+
+#~ msgid "Cadastrar novo"
+#~ msgstr "Registrar nuevo"
+
+#~ msgid "Informações"
+#~ msgstr "Informaciones"
+
+#~ msgid "Ir para o Link"
+#~ msgstr "Ir al enlace"
+
+#~ msgid "Nenhum dado"
+#~ msgstr "Ningún dato "
+
+#~ msgid "cadastrado"
+#~ msgstr "registrado"
+
+#~ msgid "Selecione abaixo o site da instituição que deseja gerenciar."
+#~ msgstr "Seleccione abajo el sitio de la institución que desea administrar."
+
+#~ msgid "Selecione a associação..."
+#~ msgstr "Seleccione la asociación"
+
+#~ msgid "Instruções:"
+#~ msgstr "Instrucciones:"
+
+#~ msgid ""
+#~ "Arraste e ordene os menus disponíveis no site da instituição selecionada. "
+#~ "Você pode transferir conteúdos/menus/links para outros menus de"
+#~ msgstr ""
+#~ "Arrastre y ordene los menús disponibles en el sitio de la institución "
+#~ "seleccionada.  Usted puede transferir contenidos / menús/ enlaces hacia "
+#~ "otros menús del "
+
+#~ msgid "mesmo nível"
+#~ msgstr "mismo nivel"
+
+#~ msgid "Marque como visível os itens que deseja que apareçam no site."
+#~ msgstr "Marque como visible los ítems que desea que aparezcan en el sitio."
+
+#~ msgid "Clique no botão"
+#~ msgstr "Clic en el botón"
+
+#~ msgid "Salvar Alterações"
+#~ msgstr "Guardar las Modificaciones"
+
+#~ msgid "para gravar as configurações selecionadas."
+#~ msgstr "para grabar las configuraciones seleccionadas"
+
+#~ msgid "Atenção:"
+#~ msgstr "Atención:"
+
+#~ msgid "Menus com a tag"
+#~ msgstr "Menús con la etiqueta"
+
+#~ msgid "não podem ter a ordem alterada e nem serem ocultos."
+#~ msgstr "no pueden tener la orden modificada ni ser ocultas."
+
+#~ msgid "Menu Fixo"
+#~ msgstr "Menú Fijo"
+
+#~ msgid "não podem ser arrastados para fora de seu menu pai."
+#~ msgstr "no pueden ser arrastrados para afuera de su menú padre."
+
+#~ msgid "Bloqueado"
+#~ msgstr "Bloqueado"
+
+#~ msgid "não podem receber outros filhos."
+#~ msgstr "no pueden recibir otros hijos."
+
+#~ msgid "Carregando ..."
+#~ msgstr "Cargando"
+
+#~ msgid "Visível"
+#~ msgstr "Visible"
+
+#~ msgid "Menu Superior"
+#~ msgstr "Menú Superior"
+
+#~ msgid "Rodapé"
+#~ msgstr "Pie de Página"
+
+#~ msgid "Salvar Configurações"
+#~ msgstr "Guardar las Configuraciones"
+
+#~ msgid "Site da Instituição não encontrado!"
+#~ msgstr "Sitio de la institución no encontrado"
+
+#~ msgid ""
+#~ "Selecione um site na barra de pesquisa a cima. Se o site selecionado não "
+#~ "estiver funcionando, contate um administrador."
+#~ msgstr ""
+#~ "Seleccione un sitio en la barra de consulta de encima.  Si el sitio "
+#~ "seleccionado no estuviere funcionando, contacte a un administrador. "
+
+#~ msgid "Links Úteis"
+#~ msgstr "Enlaces útiles"
+
+#~ msgid "Editar Link"
+#~ msgstr "Editar Enlace"
+
+#~ msgid "Cadastrar Link"
+#~ msgstr "Registrar Enlace"
+
+#~ msgid "Categorias de"
+#~ msgstr "Categorías de"
+
+#~ msgid "Categorias de "
+#~ msgstr "Categorías de"
+
+#~ msgid "Multimídia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Editar Categorias"
+#~ msgstr "Editar Categorías"
+
+#~ msgid "Registro Ativo!"
+#~ msgstr "Registro activo"
+
+#~ msgid "Registro Inativo!"
+#~ msgstr "Registro inactivo"
+
+#~ msgid "Ocorreu um erro ao tentar alterar. Tente novamente mais tarde!"
+#~ msgstr "Ocurrió un error al intenatr modificar"
+
+#~ msgid "Documentos"
+#~ msgstr "Documentos"
+
+#~ msgid "Editar Documento"
+#~ msgstr "Editar documento"
+
+#~ msgid "Cadastrar Documento"
+#~ msgstr "Registrar documento"
+
+#~ msgid "Fotos"
+#~ msgstr "Fotos"
+
+#~ msgid "Editar Foto"
+#~ msgstr "Editar Foto"
+
+#~ msgid "Cadastrar Foto"
+#~ msgstr "Registrar Foto"
+
+#~ msgid "Podcasts"
+#~ msgstr "Podacast"
+
+#~ msgid "Cadastrar Podcast"
+#~ msgstr "Registrar podcast"
+
+#~ msgid "Editar Vídeo"
+#~ msgstr "Editar vídeo"
+
+#~ msgid "Cadastrar Vídeo"
+#~ msgstr "Registrar vídeo"
+
+#~ msgid "Selecione o tipo"
+#~ msgstr "Seleccione el tipo"
+
+#~ msgid "Revista"
+#~ msgstr "Revista"
+
+#~ msgid "Documento"
+#~ msgstr "Documento"
+
+#~ msgid "Jornal"
+#~ msgstr "Periódico"
+
+#~ msgid "Arquivo Download"
+#~ msgstr "Archivo para Descarga"
+
+#~ msgid "Responsável:"
+#~ msgstr "Responsable:"
+
+#~ msgid "Válidade:"
+#~ msgstr "Validez:"
+
+#~ msgid "Válidade"
+#~ msgstr "Validez"
+
+#~ msgid "Cliente"
+#~ msgstr "Cliente"
+
+#~ msgid "Clientes"
+#~ msgstr "Clientes"
+
+#~ msgid "Editar Cliente"
+#~ msgstr "Editar Clientes"
+
+#~ msgid "Cadastrar Cliente"
+#~ msgstr "Registrar Clientes"
+
+#~ msgid "Login"
+#~ msgstr "Cuenta"
+
+#~ msgid "Vigência"
+#~ msgstr "Vigencia"
+
+#~ msgid "Outros"
+#~ msgstr "Otros"
+
+#~ msgid "Google Ad-Sense"
+#~ msgstr "Google Ad-Sense"
+
+#~ msgid "ad-client:"
+#~ msgstr "ad-client:"
+
+#~ msgid "ad-client"
+#~ msgstr "ad-client"
+
+#~ msgid "ad-slot:"
+#~ msgstr "ad-slot:"
+
+#~ msgid "ad-slot"
+#~ msgstr "ad-slot"
+
+#~ msgid "Selecione o Tipo do Banner"
+#~ msgstr "Seleccione el Tipo de Banner"
+
+#~ msgid "Data Início"
+#~ msgstr "Fecha de Inicio"
+
+#~ msgid "Data Final"
+#~ msgstr "Fecha Final"
+
+#~ msgid "Limite de Cliques"
+#~ msgstr "Límite de clics"
+
+#~ msgid "Tempo de Exibição"
+#~ msgstr "Tiempo de Exibición"
+
+#~ msgid "Selecione um associação:"
+#~ msgstr "Seleccione una asociación:"
+
+#~ msgid "Início"
+#~ msgstr "Inicio"
+
+#~ msgid "Fim"
+#~ msgstr "Fin"
+
+#~ msgid "Login do cliente"
+#~ msgstr "Cuenta del cliente"
+
+#~ msgid "Comentários de Notícias"
+#~ msgstr "Comentarios de Noticias"
+
+#~ msgid "Redação"
+#~ msgstr "Redacción"
+
+#~ msgid "Editoriais"
+#~ msgstr "Editoriales"
+
+#~ msgid "Editar Editoriais"
+#~ msgstr "Editar Editoriales"
+
+#~ msgid "Editar Notícias"
+#~ msgstr "Editar Noticias"
+
+#~ msgid "Cadastrar Notícias"
+#~ msgstr "Registar Noticias"
+
+#~ msgid "Subeditorial"
+#~ msgstr "Sub editorial"
+
+#~ msgid ""
+#~ "Ocorreu um erro ao tentar alterar o vínculo da empresa com o conteúdo"
+#~ msgstr ""
+#~ "Ocurrió un error al intentar modificar el vínculo de la empresa con el "
+#~ "contenido"
+
+#~ msgid "Vínculo alterado com sucesso!"
+#~ msgstr "Vínculo modificado con éxito"
+
+#~ msgid "Editorial"
+#~ msgstr "Editorial"
+
+#~ msgid "Selecione o editorial"
+#~ msgstr "Seleccione el editorial"
+
+#~ msgid "Cor título"
+#~ msgstr "Color título"
+
+#~ msgid "Informe a cor do título."
+#~ msgstr "Informe el color del título."
+
+#~ msgid "Selecione um editorial"
+#~ msgstr "Seleccione un editorial"
+
+#~ msgid "Importar Notícias"
+#~ msgstr "Importar Noticias"
+
+#~ msgid "Publicação"
+#~ msgstr "Publicación"
+
+#~ msgid "Editoria"
+#~ msgstr "Redacción"
+
+#~ msgid "Gerenciar Módulos"
+#~ msgstr "Administrar Módulos"
+
+#~ msgid "Requisitos:"
+#~ msgstr "Requisitos:"
+
+#~ msgid "Selecione o Subeditorial"
+#~ msgstr "Seleccione un Subeditorial"
+
+#~ msgid "Validade"
+#~ msgstr "Validez"

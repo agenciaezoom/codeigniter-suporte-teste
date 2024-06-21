@@ -1,0 +1,100 @@
+@import '../../../comum/assets/less/_variables.less';
+
+.upload-wrapper{
+    .relative();
+    .thumbnail{
+        height: 305px;
+        text-align: center;
+    }
+    .upload-image{
+        .relative();
+        .dim(100%,200px);
+        max-width: 100%;
+        &:after{
+            content: '';
+            .postl(50%,50%);
+            .mrgtl(-8px,-8px);
+            .dim(16px,16px);
+            .transition(0.3s);
+        }
+        &.loading{
+            &:after{
+                .csstransitions &{ .opacity(1); }
+                .no-csstransitions &{ .block(); }
+            }
+            img{ .opacity(0); }
+        }
+        img{
+            .opacity(1);
+            .transition(0.3s);
+        }
+    }
+    .delete-image{
+
+    }
+    #fileuploadImage {
+        .opacity(0);
+        .dim(10px, 10px);
+        .relative();
+        top: 15px;
+        left: 50px;
+        z-index: 0;
+    }
+    label,a{
+        .relative();
+        .iblock();
+        z-index: 1;
+    }
+}
+.permission-wrapper{
+    .loading{
+        border: none;
+        padding-top: 9px;
+        .opacity(0);
+        .transition(0.3s);
+        &:hover{ border: none; }
+        &.actived{ .opacity(1); }
+    }
+}
+.checkbox-custom {
+    margin-top: 3px;
+}
+.permission-box .row {
+  padding: 0 0 7px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px !important;
+  border: 1px solid #ebebeb;
+}
+.permission-data .col-sm-12{
+    padding:0px;
+}
+.permission-data .widget-body .widget-body{
+    padding-left:40px;
+    border-left: 1px solid #ebebeb;
+}
+.permission-box .row h4 {
+  margin-top: 10px;
+}
+.permission-box .row .checkbox {
+  display: inline;
+  float: right;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.permission-box .row .nome-modulo {
+  line-height: 32px;
+}
+.widget-head {
+  padding: 0 0 7px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #ebebeb;
+  background-color: #F7F7F7;
+}
+.widget-head label {
+    margin-bottom: 0;
+}
+.widget-head .checkbox-custom i {
+    margin: 0;
+}

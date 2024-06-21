@@ -1,0 +1,533 @@
+@import '_variables.less';
+
+/**
+ * css
+ *
+ * @package ezoom_framework
+ * @subpackage main
+ * @category css
+ * @author Diogo Taparello
+ * @copyright 2015 Ezoom
+ * @description Utilizar para realizar alterações nos plugins que estão sendo utilizados. Ex: Bootstrap
+ */
+
+//
+//Reescreve cores dos botões
+//
+
+.btn-primary {
+    background: @main-color;
+    border-color: @main-color;
+    &:hover, &:focus {
+        background: darken(@main-color, 2%);
+        border-color: darken(@main-color, 6%);
+    }
+    &[disabled]{
+        background: lighten(@main-color, 10%) !important;
+        border-color: lighten(@main-color, 10%) !important;
+    }
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: @main-color;
+}
+.button-on {
+    background-color: @main-color;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: @menu-link-color;
+    background-color: @main-color;
+    border-color: @main-color;
+}
+.pagination>li>a, .pagination>li>span {
+    color: @main-color;
+//
+//Fim Reescreve cores dos botões
+//
+}
+.input-group-btn:first-child>.btn-group:not(:first-child).visualizeItens>.btn{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.bootstrap-select.btn-group, .bootstrap-select.btn-group[class*="span"] {
+    margin-bottom: 0;
+}
+.btn, .btn.focus,
+.btn:active, .btn:focus, .btn:hover,
+.btn:active:focus{
+    outline: 0;
+}
+.pagination{
+    margin: 0;
+}
+.table {
+    > thead, > tbody, > tfoot {
+        > tr {
+            > th, > td {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+.nav-pills > li > a {
+    background-color: #EEE;
+}
+.nav-pills > li > a:focus, .nav-pills > li > a:hover {
+    background-color: #BCBCBC;
+}
+.nav-tabs{
+    padding: 0;
+    margin-bottom:2rem;
+    @media (max-width: @screen-sm) {
+        border: 0;
+        li{
+            display: inline-block;
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+
+            a{
+                border-right:0 !important;
+            }
+        }
+    }
+}
+.form-horizontal {
+    .form-group{
+        margin: 0px 0px 20px 0px;
+        .control-label{
+            font-size: 13px;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+//select2
+.select2{
+    min-height: 34px;
+    &.select2-no-search{
+        .select2-drop {
+            .select2-search {
+                display: none
+            }
+        }
+    }
+    .select2-container-multi .select2-choices {
+        .border-radius(3px);
+    }
+    .select2-selection {
+        border: 1px solid #ccc;
+        &.select2-selection--single{
+            height: 34px;
+            line-height: 34px;
+            span{
+                text-align: left;
+                &:first-child{
+                    height: 34px;
+                    line-height: 34px;
+                }
+                &.select2-selection__arrow{
+                    height: 34px;
+                }
+            }
+        }
+    }
+}
+.select2-container{
+    z-index: 30;
+}
+//MODAL
+.bootbox-confirm{
+    .modal-dialog{
+        height: 120px;
+        text-align: center;
+    }
+}
+#modal-view{
+    position: absolute;
+}
+.modal-dialog{
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1041;
+    .modal-content{
+        >.modal-body:first-child, .modal-header{
+            background: @header-color;
+            color: @menu-link-color;
+            border-bottom: 0;
+
+            .close {
+                color: @menu-link-color;
+                .opacity(.7);
+                font-weight: normal;
+                text-shadow: 0 1px 0 #000;
+                .transition(.3s);
+                &:hover{
+                    .opacity(1);
+                }
+            }
+        }
+        .modal-body{
+            background-color: #fff;
+            .iblock();
+            overflow-y: auto;
+            width: 100%;
+
+            > div {
+                margin-bottom: 5px;
+            }
+        }
+        .modal-footer{
+            text-align: center;
+            border-top: 0;
+        }
+    }
+}
+#ajax-modal, .bootbox.modal{
+    .opacity(0);
+    .transition(.2s, opacity);
+    .rgba(.45, 0, 0, 0);
+}
+.bootbox.modal{
+    &.in {
+        .opacity(1);
+    }
+    .modal-body {
+        background-color:#fff;
+        color: white;
+        text-align: left;
+
+        button {
+            .opacity(1);
+            color: white;
+            font-weight: normal;
+            margin-top: 0 !important;
+        }
+    }
+    .modal-footer {
+        text-align: right;
+    }
+}
+#ajax-modal.in{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    .opacity(1);
+    .modal-backdrop{
+        height: 100% !important;
+    }
+    .modal-dialog{
+        top:47%;
+        left:50%;
+        right:auto;
+        bottom:auto;
+        .translate(-50%, -50%);
+        .dim(80%, auto);
+        max-width: 960px;
+        max-height: 80%;
+        .modal-content{
+            height: 100%;
+            .modal-body{
+                height: 100%;
+            }
+        }
+    }
+}
+.modal-backdrop {
+    display: none;
+}
+//Custom Scroll
+.mCustomScrollBox > .mCSB_scrollTools{
+    right: 25px;
+}
+//SORTABLE
+#sortable tr {
+    td:first-child{
+        position: relative;
+        cursor: pointer;
+        > span{
+            .postl(30px, 15px);
+            font-size: 10px;
+            color: #AAA;
+            font-size: 13px;
+            line-height: 13px;
+            padding-left: 10px;
+        }
+        > i{
+            font-size: 20px;
+            color: #BCBCBC;
+        }
+        &.moveSortable{
+            > span{
+                .postl(5px, 15px);
+                color: @main-color;
+            }
+        }
+    }
+}
+
+table.table th a{
+    white-space: nowrap;
+    .fa{
+        min-width: 10px;
+    }
+    &:hover{
+        i:before{
+            content: '\f0d7';
+        }
+    }
+    &:hover{
+        i[class*="-desc"]:before{
+            content: '\f0d8';
+        }
+        i[class*="-sort"]:before{
+            content: '\f00d';
+        }
+    }
+}
+//JQUERY SLIDER HORIZONTAL
+#slider{
+    &.ui-slider-horizontal{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ui-state-default, .ui-widget-content .ui-state-default{
+        background: #337AB7;
+    }
+}
+//Custom Order in Slider
+.orderProducts{
+    text-align: center;
+    .productPrev{
+        float: left;
+    }
+    .productProx{
+        float: right;
+    }
+}
+//VALIDATE
+.help-block{
+    position: absolute;
+    margin-top: -2px;
+    .input-group &{
+        display: table-row;
+        position: relative;
+    }
+    &.has-error {
+        white-space: nowrap;
+        display: contents;
+    }
+}
+.has-error {
+    // @text-color: #555; @border-color: #A94442;; @background-color: #f5f5f5)
+    .form-control > .selectpicker{
+        border-color: #A94442;;
+        &:focus {
+            border-color: darken(#ccc, 10%);
+        }
+    }
+}
+//DATEPICKER
+#data-news{
+    display: none;
+}
+#alt-date{
+    max-width: 210px;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+#modal-crop{
+    background-color: rgba(0, 0, 0, 0.8);
+    .modal-dialog{
+        max-height: 80%;
+        max-width: 80%;
+        .btns-crop{
+            margin-top: 15px;
+        }
+    }
+    .jcrop-keymgr{
+        opacity: 0;
+    }
+    .jcrop-holder{
+        margin: 0px auto;
+    }
+}
+
+.block-group{
+    border: 1px solid #ebebeb;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: -15px;
+    @media (min-width: @screen-sm) {
+        &:nth-of-type(odd){
+            margin-left: -7px;
+            margin-right: 0px;
+        }
+        &:nth-of-type(even){
+            margin-right: -8px;
+            margin-left: 15px;
+        }
+        &.col-sm-12{
+            width: calc(~'100% + 15px');
+        }
+    }
+    @media (max-width: @screen-sm) {
+        width: calc(~'100% + 30px');
+    }
+    > label {
+        .dim(100%);
+        padding: 5px 15px;
+        background: #f7f7f7;
+        border-bottom: 1px solid #ebebeb;
+    }
+}
+
+select[name="companies[]"]:not(.not-hide) ~span.select2{
+    .select2-selection--multiple .select2-selection__choice{
+        display: none;
+    }
+}
+select[name="news[]"]:not(.not-hide) ~span.select2{
+    .select2-selection--multiple .select2-selection__choice{
+        display: none;
+    }
+}
+.bootstrap-datetimepicker-widget{
+    z-index: 9999999;
+}
+.cke_bottom{
+    background:@primary-bgcolor !important;
+}
+.open>.dropdown-toggle.btn-primary{
+    background:darken(@primary-bgcolor, 4%);
+    border-color:darken(@primary-bgcolor, 4%);
+}
+.checkbox-custom i, .checkbox-custom i.checked, a:focus, a:hover{
+    color:@primary-bgcolor;
+}
+
+@media (min-width: 1200px) {
+    .flex-lg {
+        .flex-row();
+    }
+}
+@media (min-width: 992px) {
+    .flex-md {
+        .flex-row();
+    }
+}
+@media (min-width: 768px) {
+    .flex-sm {
+        .flex-row();
+    }
+}
+.flex-xs {
+    .flex-row();
+}
+.flex-lg,
+.flex-md,
+.flex-sm,
+.flex-xs {
+    > [class*="col-"] {
+        &.has-error {
+            .input-group {
+                padding-bottom: 20px;
+                .has-error.help-block {
+                    .postl(100%,0);
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.no-wrap {
+    .flex-wrap(nowrap) !important;
+    &[class*="flex-"] {
+        > [class*="col-"] {
+            .flex-shrink(1);
+        }
+    }
+}
+
+//Table Component
+.multilang-drop .dropdown-menu > li > a{
+    padding: 3px 12px;
+}
+
+[data-table]{
+    tbody, thead{
+        input{
+            border: none;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+        }
+    }
+
+    thead tr th{
+        position: relative;
+
+        span{
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            color: @danger-bgcolor;
+            cursor: pointer;
+            pointer-events: all;
+            opacity: .5;
+
+            &:hover{
+                opacity: 1;
+            }
+
+            &::before{
+                content: "\f00d";
+            }
+        }
+    }
+
+    tbody tr td{
+        position: relative;
+
+        span{
+            display: none;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+
+            position: absolute;
+            top: 8px;
+            right: -25px;
+            color: @danger-bgcolor;
+            cursor: pointer;
+            pointer-events: all;
+            opacity: .5;
+
+            &:hover{
+                opacity: 1;
+            }
+
+
+            &::before{
+                content: "\f00d";
+            }
+        }
+
+        &:last-child{
+            span{
+                display: block;
+            }
+        }
+    }
+}
+// End Table COmponent

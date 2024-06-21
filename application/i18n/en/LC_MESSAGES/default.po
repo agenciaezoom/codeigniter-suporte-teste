@@ -1,0 +1,838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ezoom Framework\n"
+"POT-Creation-Date: 2024-05-06 15:35-0300\n"
+"PO-Revision-Date: 2024-05-06 15:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: T_;T_ngettext\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/MY_Controller.php:266
+msgid "primeira"
+msgstr "first"
+
+#: core/MY_Controller.php:267
+msgid "última"
+msgstr "last"
+
+#: core/MY_Controller.php:302
+msgid ""
+"Desculpe, ocorreu um problema inesperado. Confira os campos preenchidos no "
+"formulário e tente novamente."
+msgstr ""
+"Sorry, an unexpected error occurred. Check all fields filled up on the form "
+"and try again."
+
+#: core/MY_Controller.php:303
+#: modules/trabalhe_conosco/controllers/trabalhe_conosco.php:57
+msgid "Ocorreu um erro"
+msgstr "Error"
+
+#: core/MY_Controller.php:304
+msgid "Fechar"
+msgstr "Close"
+
+#: modules/comum/controllers/comum.php:19
+msgid "Página não encontrada"
+msgstr "Page not found"
+
+#: modules/comum/views/breadcrumb.php:6
+#: modules/receitas/controllers/receitas.php:130
+msgid "Home"
+msgstr "Home"
+
+#: modules/comum/views/header.php:9
+msgid "Abrir o menu"
+msgstr "Open menu"
+
+#: modules/comum/views/menu.php:6
+msgid "Quem Somos"
+msgstr "Who we are"
+
+#: modules/comum/views/menu.php:7
+msgid "Nossos Produtos"
+msgstr "Products"
+
+#: modules/comum/views/menu.php:8
+msgid "Peças"
+msgstr "Parts"
+
+#: modules/comum/views/menu.php:9
+msgid "Pós-Vendas"
+msgstr "After Sales"
+
+#: modules/comum/views/menu.php:10
+msgid "Notícias"
+msgstr "News"
+
+#: modules/comum/views/menu.php:11
+msgid "Contato"
+msgstr "Contact"
+
+#: modules/comum/views/not_found.php:3
+msgid "Olá!"
+msgstr "Hello!"
+
+#: modules/comum/views/not_found.php:4
+msgid "Esta página não foi encontrada :("
+msgstr "Page not found :("
+
+#: modules/contato/controllers/contato.php:44
+#: modules/contato/views/contato.php:24
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:14
+#: modules/vendas/views/vendas.php:51 modules/vendas/views/vendas.php:98
+#: modules/vendas/views/vendas.php:185
+msgid "Nome"
+msgstr "Name"
+
+#: modules/contato/controllers/contato.php:45
+#: modules/contato/views/contato.php:30
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:25
+#: modules/vendas/views/vendas.php:62 modules/vendas/views/vendas.php:109
+#: modules/vendas/views/vendas.php:194
+msgid "Telefone"
+msgstr "Phone"
+
+#: modules/contato/controllers/contato.php:46
+#: modules/vendas/views/vendas.php:175 modules/vendas/views/vendas.php:188
+msgid "Email"
+msgstr "Email"
+
+#: modules/contato/controllers/contato.php:47
+msgid "Setor de Interesse"
+msgstr "Sector of Interest"
+
+#: modules/contato/controllers/contato.php:48
+#: modules/vendas/views/vendas.php:70 modules/vendas/views/vendas.php:117
+msgid "Estado"
+msgstr "State"
+
+#: modules/contato/controllers/contato.php:49
+#: modules/vendas/views/vendas.php:78 modules/vendas/views/vendas.php:125
+msgid "Cidade"
+msgstr "City"
+
+#: modules/contato/controllers/contato.php:50
+#: modules/contato/views/contato.php:36
+msgid "Mensagem"
+msgstr "Message"
+
+#: modules/contato/controllers/contato.php:90
+#: modules/trabalhe_conosco/controllers/trabalhe_conosco.php:93
+msgid "Obrigado!"
+msgstr "Thank you!"
+
+#: modules/contato/controllers/contato.php:90
+msgid "Sua mensagem foi enviada com sucesso!"
+msgstr "Your message was sent successfully!"
+
+#: modules/contato/controllers/contato.php:100
+#: modules/trabalhe_conosco/controllers/trabalhe_conosco.php:99
+msgid "Ocorreu um erro!"
+msgstr "Error!"
+
+#: modules/contato/views/contato.php:27
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:18
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/contato/views/contato.php:36
+msgid "Olá! Gostaria de solicitar um orçamento para o produto"
+msgstr "Hello, I would like to request a quote for the product"
+
+#: modules/contato/views/contato.php:42
+msgid "Enviar contato"
+msgstr "Contact us"
+
+#: modules/downloads/views/_downloads.php:2
+#: modules/produtos/views/_produtos.php:2
+msgid "Nenhum resultado encontrado."
+msgstr "No results found."
+
+#: modules/empresas/views/empresas.php:22
+msgid "Acessar"
+msgstr "Access"
+
+#: modules/home/views/home.php:72
+msgid "Confira alguns de nossos <b>produtos</b>"
+msgstr "Check out some of our <b>products</b>"
+
+#: modules/institucional/views/institucional.php:54
+msgid "Aqui vai uma slogan de impacto da empresa."
+msgstr "Here's one of the company's catchy slogans."
+
+#: modules/institucional/views/institucional.php:56
+msgid "Entre em contato"
+msgstr "Contact us"
+
+#: modules/pecas/views/pecas.php:9
+msgid "Compre online VNT Parts"
+msgstr "Buy VNT Parts online"
+
+#: modules/pecas/views/pecas.php:19
+msgid "Equipe do Comercial/Peças"
+msgstr "Comercial/Peças team"
+
+#: modules/produtos/controllers/produtos.php:86
+msgid "Produtos"
+msgstr "Products"
+
+#: modules/produtos/views/detalhes.php:43
+msgid "Descrição"
+msgstr "Description"
+
+#: modules/produtos/views/detalhes.php:46
+msgid "Solicitar um orçamento"
+msgstr "Request proposal"
+
+#: modules/produtos/views/detalhes.php:74
+msgid "Informações Técnicas"
+msgstr "Technical Information"
+
+#: modules/produtos/views/detalhes.php:77
+msgid "Downloads"
+msgstr "Downloads"
+
+#: modules/produtos/views/detalhes.php:112
+msgid "Diferenciais"
+msgstr "Outstanding Features"
+
+#: modules/produtos/views/detalhes.php:131
+msgid "Outros Produtos"
+msgstr "Products"
+
+#: modules/produtos/views/produtos.php:52
+msgid "Nenhum resultado encontrado"
+msgstr "No result found"
+
+#: modules/receitas/controllers/receitas.php:131
+msgid "Receitas"
+msgstr "Recipes"
+
+#: modules/receitas/views/_receitas.php:31
+#: modules/receitas/views/detalhes.php:27
+msgid "porções"
+msgstr "Remarks"
+
+#: modules/receitas/views/detalhes.php:6
+msgid "Voltar"
+msgstr "Back"
+
+#: modules/receitas/views/detalhes.php:33
+msgid "Ingredientes"
+msgstr "Ingredients"
+
+#: modules/receitas/views/detalhes.php:37
+msgid "Modo de preparo"
+msgstr "How to prepare"
+
+#: modules/receitas/views/detalhes.php:50
+msgid "Vídeo Institucional"
+msgstr "Corporate Video"
+
+#: modules/receitas/views/detalhes.php:60
+msgid "Confira mais dicas em nossas redes sociais"
+msgstr "Check out more tips on our social networks"
+
+#: modules/receitas/views/detalhes.php:85
+msgid "Produtos JCW usados na receita"
+msgstr "JCW products used in the recipe"
+
+#: modules/receitas/views/receitas.php:7
+msgid "Os queridinhos e práticos"
+msgstr "The practical darlings"
+
+#: modules/trabalhe_conosco/controllers/trabalhe_conosco.php:58
+msgid "Ocorreu um problema no upload: "
+msgstr "There was a problem with upload: "
+
+#: modules/trabalhe_conosco/controllers/trabalhe_conosco.php:95
+msgid "Seu solicitação foi enviada com sucesso!"
+msgstr "Your message was sent successfully!"
+
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:4
+msgid "Trabalhe Conosco"
+msgstr "Contact us"
+
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:5
+msgid ""
+"Vamos trabalhar juntos! Envie seu currículo para a nossa equipe e aguarde "
+"contato."
+msgstr ""
+"Let's work together! Send your CV to our team and wait for us to contact you."
+
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:29
+msgid "Currículo"
+msgstr "Résumé"
+
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:33
+msgid "Anexar"
+msgstr "Attach"
+
+#: modules/trabalhe_conosco/views/trabalhe_conosco.php:40
+msgid "Enviar"
+msgstr "Send"
+
+#: modules/vendas/views/vendas.php:8
+msgid "Atendimento ao cliente"
+msgstr "Customer Service"
+
+#: modules/vendas/views/vendas.php:9
+msgid "Solicite a garantia"
+msgstr "Request proposal"
+
+#: modules/vendas/views/vendas.php:10
+msgid "Suporte online"
+msgstr "Online support"
+
+#: modules/vendas/views/vendas.php:11
+msgid "Glossário"
+msgstr "Glossary"
+
+#: modules/vendas/views/vendas.php:16
+msgid "Segunda a sexta-feira 07h20 às 17h00."
+msgstr "Monday to Friday 07h20 to 17h00."
+
+#: modules/vendas/views/vendas.php:37
+#, fuzzy
+msgid "Solicitação de garantia para produtos acabados"
+msgstr "Warranty claims for finished products"
+
+#: modules/vendas/views/vendas.php:38
+#, fuzzy
+#| msgid "Solicite a garantia"
+msgid "Solicitação de garantia para peças"
+msgstr "Request proposal"
+
+#: modules/vendas/views/vendas.php:47
+#, fuzzy
+msgid "Dados do Revendedor"
+msgstr "Dealer data"
+
+#: modules/vendas/views/vendas.php:54 modules/vendas/views/vendas.php:59
+#: modules/vendas/views/vendas.php:106
+#, fuzzy
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: modules/vendas/views/vendas.php:67 modules/vendas/views/vendas.php:114
+msgid "País"
+msgstr "Country"
+
+#: modules/vendas/views/vendas.php:85
+#, fuzzy
+msgid "Número da nota fiscal Veneto"
+msgstr "Veneto invoice number"
+
+#: modules/vendas/views/vendas.php:88
+#, fuzzy
+msgid "Data de venda ao revendedor"
+msgstr "Date of sale to dealer"
+
+#: modules/vendas/views/vendas.php:94
+#, fuzzy
+#| msgid "Downloads do Produto"
+msgid "Dados do Propietário"
+msgstr "Product Downloads"
+
+#: modules/vendas/views/vendas.php:101
+#, fuzzy
+msgid "CPF/CNPJ"
+msgstr "IR/LPR"
+
+#: modules/vendas/views/vendas.php:133
+#, fuzzy
+msgid "Dados do Equipamento"
+msgstr "Equipment data"
+
+#: modules/vendas/views/vendas.php:137
+#, fuzzy
+msgid "Modelo"
+msgstr "Model"
+
+#: modules/vendas/views/vendas.php:140
+#, fuzzy
+msgid "Número de série"
+msgstr "Serial number"
+
+#: modules/vendas/views/vendas.php:143
+#, fuzzy
+msgid "Lote"
+msgstr "Lot"
+
+#: modules/vendas/views/vendas.php:146
+#, fuzzy
+msgid "Mês/Ano"
+msgstr "Month year"
+
+#: modules/vendas/views/vendas.php:151
+#, fuzzy
+msgid "Total de horas trabalhadas"
+msgstr "Total hours worked"
+
+#: modules/vendas/views/vendas.php:154
+#, fuzzy
+msgid "Data de venda ao cliente final"
+msgstr "Date of sale to end customer"
+
+#: modules/vendas/views/vendas.php:157
+#, fuzzy
+msgid "Data da entrega técnica"
+msgstr "Date of technical delivery"
+
+#: modules/vendas/views/vendas.php:160
+#, fuzzy
+msgid "Data da reclamação do cliente"
+msgstr "Date of customer complaint"
+
+#: modules/vendas/views/vendas.php:166
+#, fuzzy
+msgid "Registro das Ocorrências"
+msgstr "Recording Occurrences"
+
+#: modules/vendas/views/vendas.php:170
+#, fuzzy
+msgid "Descricão do Problema"
+msgstr "Problem description"
+
+#: modules/vendas/views/vendas.php:181
+#, fuzzy
+msgid "Responsável pelo Solicitação"
+msgstr "Responsible for the Request"
+
+#: modules/vendas/views/vendas.php:191
+#, fuzzy
+msgid "Confirmar email"
+msgstr "Confirm email"
+
+#: modules/vendas/views/vendas.php:199
+#, fuzzy
+#| msgid "Solicite a garantia"
+msgid "Enviar solicitação de garantia"
+msgstr "Request proposal"
+
+#: modules/vendas/views/vendas.php:244
+#, fuzzy
+#| msgid "Nenhum resultado encontrado"
+msgid "Nenhum termo encontrado"
+msgstr "No result found"
+
+#~ msgid "Institucional"
+#~ msgstr "Institution"
+
+#~ msgid "Empresas"
+#~ msgstr "Companies"
+
+#~ msgid "Política de Privacidade"
+#~ msgstr "Privacy Policy"
+
+#~ msgid "Projetos Especiais"
+#~ msgstr "Special Projects"
+
+#~ msgid "Assistência Técnica"
+#~ msgstr "Technical assistance"
+
+#~ msgid "Serviços"
+#~ msgstr "Services"
+
+#~ msgid "Infraestrutura"
+#~ msgstr "Structure"
+
+#~ msgid "Conheça a Ezoom"
+#~ msgstr "Learn more about Ezoom"
+
+#~ msgid "Trator"
+#~ msgstr "Tractors"
+
+#~ msgid "Peças de Reposição"
+#~ msgstr "Spare parts"
+
+#~ msgid "Assunto"
+#~ msgstr "Subject"
+
+#~ msgid "Brasil"
+#~ msgstr "Brazil"
+
+#~ msgid "Preencha o formulário abaixo para falar com nossa equipe"
+#~ msgstr "Fill in the form below to talk to our team"
+
+#~ msgid "Nome Completo"
+#~ msgstr "Full Name"
+
+#~ msgid "Enviar mensagem"
+#~ msgstr "Send Message"
+
+#~ msgid "Descubra a <b>solução</b> certa para você."
+#~ msgstr "Find the right <b>solution</b> for you."
+
+#~ msgid "Conheça a <b>Tecnomaq</b>"
+#~ msgstr "Learn more about <b>Tecnomaq</b>"
+
+#~ msgid "Este e-mail já está cadastrado!"
+#~ msgstr "This e-mail address has been already taken!"
+
+#~ msgid "Sua mensagem foi enviada com sucesso."
+#~ msgstr "Your message has been successfully sent."
+
+#~ msgid "Oops!"
+#~ msgstr "Oops!"
+
+#~ msgid "Erro ao cadastrar newsletter"
+#~ msgstr "Error registering newsletter"
+
+#~ msgid "Receba nossa <b>newsletter</b>"
+#~ msgstr "Receive our <b>newsletter</b>"
+
+#~ msgid "Cadastrar"
+#~ msgstr "Register"
+
+#~ msgid "Tabela Técnica"
+#~ msgstr "Technical table"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Galeria de <b>fotos</b>"
+#~ msgstr "<b>Photo</b> gallery"
+
+#~ msgid "Tipos de <b>serviços</b>"
+#~ msgstr "Types of <b>services</b>"
+
+#~ msgid "Agradecemos por enviar seu currículo para a Tecnomaq."
+#~ msgstr "Thank you for sending your resume to Bontempo."
+
+#~ msgid "Vagas <b>disponíveis</b>"
+#~ msgstr "<b>Available</b> positions"
+
+#~ msgid "Preencha o formulário abaixo e anexe seu currículo."
+#~ msgstr "Fill in the form below and attach your CV."
+
+#~ msgid "* Currículo"
+#~ msgstr "*Résumé"
+
+#~ msgid "Observações (opcional)"
+#~ msgstr "Comments (optional)"
+
+#~ msgid "Enviar Currículo"
+#~ msgstr "Submit Curriculum"
+
+#~ msgid "Nossa <span>História</span>"
+#~ msgstr "Our History"
+
+#~ msgid ""
+#~ "Lorem ipsum dolor sit amet consectetur. Aliquam tristique sed neque fames "
+#~ "egestas sed in dolor habitasse."
+#~ msgstr ""
+#~ "Lorem ipsum dolor sit amet consectetur. Aliquam tristique sed neque fames "
+#~ "egestas sed in dolor habitasse."
+
+#~ msgid "Premiações & <span>Certificações</span>"
+#~ msgstr "Awards &amp; <span>Certifications</span>"
+
+#~ msgid ""
+#~ "Lorem ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum."
+#~ msgstr ""
+#~ "Lorem ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum. Lorem "
+#~ "ipsum dolor sit amet consectetur. Sagittis dolor est in fermentum "
+#~ "fermentum vehicula. Vestibulum viverra adipiscing vitae dictum."
+
+#~ msgid "Tecnomaq"
+#~ msgstr "Tecnomaq"
+
+#~ msgid "Designer"
+#~ msgstr "Designer"
+
+#~ msgid "Especificador"
+#~ msgstr "Creators"
+
+#~ msgid "Vídeos"
+#~ msgstr "Videos"
+
+#~ msgid "Revista Digital"
+#~ msgstr "Digital Magazine"
+
+#~ msgid "Veja algumas fotos"
+#~ msgstr "View some photos"
+
+#~ msgid "confira todos os vídeos"
+#~ msgstr "view all videos"
+
+#~ msgid "CARREGANDO"
+#~ msgstr "LOADING"
+
+#~ msgid "Veja os projetos de "
+#~ msgstr "Check our projects "
+
+#~ msgid "Conheça"
+#~ msgstr "Learn more about"
+
+#~ msgid "Sucesso"
+#~ msgstr "Success"
+
+#~ msgid ""
+#~ "Seu e-mail foi cadastrado com sucesso. Em breve você receberá nossas "
+#~ "novidades."
+#~ msgstr ""
+#~ "Your e-mail has been registered successfully. Soon you will receive our "
+#~ "newsletter."
+
+#~ msgid "Confira os campos preenchidos no formulário e tente novamente."
+#~ msgstr "Check all fields on the form an try again."
+
+#~ msgid "Ops"
+#~ msgstr "Oops"
+
+#~ msgid "Bontempo"
+#~ msgstr "Bontempo"
+
+#~ msgid "A Bontempo"
+#~ msgstr "Bontempo"
+
+#~ msgid "Lançamentos"
+#~ msgstr "New releases"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Lojas"
+#~ msgstr "Stores"
+
+#~ msgid "Bontempo Office"
+#~ msgstr "Bontempo Office"
+
+#~ msgid "Seja um Franqueado"
+#~ msgstr "Be our Franchisee"
+
+#~ msgid "Assinados"
+#~ msgstr "Signature"
+
+#~ msgid "Fale com a Bontempo"
+#~ msgstr "Contact us at Bontempo"
+
+#~ msgid "Abrir a busca"
+#~ msgstr "Open search"
+
+#~ msgid "Pesquisar"
+#~ msgstr "Search"
+
+#~ msgid "PESQUISAR"
+#~ msgstr "SEARCH"
+
+#~ msgid "Agradecemos pelo seu contato. Em breve, retornaremos."
+#~ msgstr "Thank you for contact us. Soon we’ll get in touch."
+
+#~ msgid "Opss!"
+#~ msgstr "Oops!"
+
+#~ msgid "Ocorreu um erro inesperado."
+#~ msgstr "An unexpected error occurred."
+
+#~ msgid "Trabalhe na Bontempo"
+#~ msgstr "Work for Bontempo"
+
+#~ msgid "SEU NOME"
+#~ msgstr "YOUR NAME"
+
+#~ msgid "SEU E-MAIL"
+#~ msgstr "YOUR E-MAIL"
+
+#~ msgid "SEU TELEFONE"
+#~ msgstr "YOUR PHONE NUMBER"
+
+#~ msgid "ASSUNTO"
+#~ msgstr "SUBJECT"
+
+#~ msgid "LOJA"
+#~ msgstr "STORE"
+
+#~ msgid "MENSAGEM"
+#~ msgstr "MESSAGE"
+
+#~ msgid "ENVIAR"
+#~ msgstr "SEND"
+
+#~ msgid "Auto Expressão"
+#~ msgstr "Self-expression"
+
+#~ msgid "Seja um franqueado Bontempo"
+#~ msgstr "Be a Bontempo franchisee"
+
+#~ msgid "40 Anos"
+#~ msgstr "40 years"
+
+#~ msgid "Saiba mais sobre "
+#~ msgstr "Learn more about "
+
+#~ msgid "Saiba Mais"
+#~ msgstr "Learn more"
+
+#~ msgid "Cep"
+#~ msgstr "Postal Code"
+
+#~ msgid "(Ver Mapa)"
+#~ msgstr "(See Map)"
+
+#~ msgid "Entre em Contato"
+#~ msgstr "Contact us"
+
+#~ msgid "Horário de Funcionamento"
+#~ msgstr "Working hours"
+
+#~ msgid "Data de Inclusão"
+#~ msgstr "Date of inclusion"
+
+#~ msgid "Neste ambiente foram utilizados os acabamentos:"
+#~ msgstr "In this space, the following finishing options were used:"
+
+#~ msgid "Ver Perfil"
+#~ msgstr "See Profile"
+
+#~ msgid "Veja algumas fotos deste Ambiente"
+#~ msgstr "See some photos of this project"
+
+#~ msgid "Conheça outros ambientes deste projeto"
+#~ msgstr "Learn more about other spaces of this project"
+
+#~ msgid "Outros projetos deste Arquiteto"
+#~ msgstr "Other projects by this Architect"
+
+#~ msgid "Mais projetos com este acabamento"
+#~ msgstr "More projects with this finishing option"
+
+#~ msgid "Ver Ambiente"
+#~ msgstr "See Space"
+
+#~ msgid "Resultado da sua busca para"
+#~ msgstr "Result of your search for"
+
+#~ msgid "Filtrar projetos"
+#~ msgstr "Filter projects"
+
+#~ msgid "Filtrar Projetos"
+#~ msgstr "Filter Projects"
+
+#~ msgid "Todos Ambientes"
+#~ msgstr "All Projects"
+
+#~ msgid "Todos Acabamentos"
+#~ msgstr "All Finishes"
+
+#~ msgid "Todos Estilos"
+#~ msgstr "All Styles"
+
+#~ msgid "Assinado por"
+#~ msgstr "Signed by"
+
+#~ msgid "Loja"
+#~ msgstr "Store"
+
+#~ msgid "Trabalhe em nossa fábrica"
+#~ msgstr "Work in our factory"
+
+#~ msgid "Trabalhe em uma franquia Bontempo"
+#~ msgstr "Work in a Bontempo franchise"
+
+#~ msgid "SEU NOME COMPLETO"
+#~ msgstr "YOUR FULL NAME"
+
+#~ msgid "DATA DE NASCIMENTO"
+#~ msgstr "DATE OF BIRTH"
+
+#~ msgid "SEXO"
+#~ msgstr "GENDER"
+
+#~ msgid "Masculino"
+#~ msgstr "Male"
+
+#~ msgid "Feminino"
+#~ msgstr "Female"
+
+#~ msgid "Outros"
+#~ msgstr "Others"
+
+#~ msgid "ESCOLARIDADE"
+#~ msgstr "EDUCATION"
+
+#~ msgid "Ensino fundamental incompleto"
+#~ msgstr "Basic School - Incomplete"
+
+#~ msgid "Ensino fundamental completo"
+#~ msgstr "Basic School - Complete"
+
+#~ msgid "Ensino médio incompleto"
+#~ msgstr "High School - Incomplete"
+
+#~ msgid "Ensino médio completo"
+#~ msgstr "High School - Complete"
+
+#~ msgid "Superior completo (ou graduação)"
+#~ msgstr "College degree"
+
+#~ msgid "Pós-graduação"
+#~ msgstr "Graduate Studies"
+
+#~ msgid "Mestrado"
+#~ msgstr "Master’s Degree"
+
+#~ msgid "Doutorado"
+#~ msgstr "Doctorate Degree"
+
+#~ msgid "Pós-Doutorado"
+#~ msgstr "PHD"
+
+#~ msgid "FACEBOOK/INSTAGRAM/LINKEDIN"
+#~ msgstr "FACEBOOK/INSTAGRAM/LINKEDIN"
+
+#~ msgid "ESTADO"
+#~ msgstr "STATE"
+
+#~ msgid "CIDADE"
+#~ msgstr "CITY"
+
+#~ msgid "ÁREA DE INTERESSE"
+#~ msgstr "AREA OF INTEREST"
+
+#~ msgid "TURNO DE INTERESSE"
+#~ msgstr "PREFERABLE SHIFT"
+
+#~ msgid "Diurno"
+#~ msgstr "Daytime"
+
+#~ msgid "Noturno"
+#~ msgstr "Nightly"
+
+#~ msgid "Ambos"
+#~ msgstr "Both"
+
+#~ msgid "Manhã"
+#~ msgstr "Morning"
+
+#~ msgid "Tarde"
+#~ msgstr "Afternoon"
+
+#~ msgid "Integral"
+#~ msgstr "Full time"
+
+#~ msgid "Noite"
+#~ msgstr "Night shift"

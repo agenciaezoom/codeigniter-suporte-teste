@@ -1,0 +1,176 @@
+@import '../../../less/_variables.less';
+
+.upload-wrapper{
+    .relative();
+    .upload-image {
+        .relative();
+        .dim(100%,75px);
+        .fleft();
+        max-width: 75px;
+        line-height: 75px;
+
+        &:hover {
+            span, canvas, img {
+                border-color: darken(#CCC, 110%);
+            }
+        }
+        &:after{
+            content: '';
+            .postl(50%,50%);
+            .mrgtl(-8px,-8px);
+            .dim(16px,16px);
+            .transition(0.3s);
+        }
+        span, canvas, img{
+            .dim(75px, 75px);
+            .border-radius(3px);
+            .fleft();
+            .transition(.2s, border-color);
+            border: 1px solid #CCC;
+            text-align: center;
+            font-size: 10px;
+            color: #204D74;
+        }
+        img{
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            .opacity(1);
+            .transition(0.3s);
+        }
+    }
+
+    [id^="fileupload"], [id^="fileUploadArchive"], [id^="fileUploadImage"] {
+        .opacity(0);
+        .dim(10px, 10px);
+        .relative();
+        top: 15px;
+        left: 75px;
+        z-index: 0;
+    }
+    label,a{
+        .relative();
+        .iblock();
+        z-index: 1;
+    }
+
+    .remove-image{
+        .fright();
+        margin-right: 10px;
+    }
+
+    .edit-upload{
+        .pointer();
+        margin-bottom: 0;
+        vertical-align: bottom;
+
+        &:hover{
+            color: #23527C
+        }
+        i {
+            margin-top: 5px;
+        }
+    }
+
+    .upload-action{
+        .dim(21px);
+        .fleft();
+        .clr();
+        margin-left: 10px;
+
+
+    }
+
+    input[type="checkbox"]{
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -5px;
+        margin-left: -5px;
+        z-index: 0;
+    }
+    /************************************/
+    /* CLASES PARA O UPLOAD DE ARQUIVOS */
+    /************************************/
+    #idArchive{
+        .checkbox-custom{
+            padding-left: 20px;
+        }
+    }
+    .upload-archive{
+        .progress{
+            .border-radius(2px);
+            .dim(100%, 34px);
+            background: transparent;
+            border: 1px solid #ccc;
+            box-shadow: none;
+            color: #666;
+            font-size: 13px;
+            margin: 0;
+            // max-width: 400px;
+            position: relative;
+            z-index: 1;
+            top: 0;
+
+            .progress-bar{
+                .border-radius(2px);
+                overflow: hidden;
+                .relative();
+                color: #fff;
+                z-index: 3;
+                .progressHolder{
+                    .dim(100%,32px);
+                    font-size: 14px;
+                    line-height: 32px;
+                    margin: 0;
+                    overflow: hidden;
+                    padding-left: 10px;
+                    .postl(0,0);
+                    text-align: left;
+                    white-space: nowrap;
+                }
+                &.complete{
+                    .progressHolder{
+                        padding-right: 30px;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+            .archivePlaceholder{
+                .dim(100%,32px);
+                line-height: 32px;
+                margin: 0;
+                overflow: hidden;
+                padding: 0 20px 0 10px;
+                .postl(0,0);
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                &.pointer{
+                    .pointer();
+                }
+            }
+            .remove-archive{
+                padding: 0;
+                .postr(7px, 5px);
+                z-index: 4;
+                i:before{
+                    .relative();
+                    color: @danger-bgcolor;
+                }
+            }
+        }
+
+        input[type="file"] {
+            .opacity(0);
+            .dim(10px, 10px);
+            .postl(50%,50%);
+            margin-top: -5px;
+            margin-left: -5px;
+            z-index: 0;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import '../../../comum/assets/less/_variables.less';
+
+#contact {
+  position: relative;
+
+  .common-limiter {
+    #infos {
+      width: 100%;
+      max-width: 1250px;
+      margin: 6rem auto 8rem;
+
+      .infos-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(250px, 1fr));
+        gap: 2rem;
+
+        .infos-item {
+          display: inline-block;
+          text-align: center;
+
+          @media screen and (max-width: @phone) {
+            display: block;
+
+            &:not(:last-child) {
+              margin-bottom: 3rem;
+            }
+          }
+
+          .icon {
+            .dim(78px, 78px);
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+              .dim(28px, 28px);
+
+              path {
+                stroke: @main-color;
+              }
+            }
+          }
+
+          .title {
+            .font(14, 600);
+            display: inline-block;
+            color: @sec-color;
+          }
+        }
+      }
+    }
+
+    #form {
+      margin-bottom: 8rem;
+
+      .common-text {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 4rem;
+      }
+
+      form {
+        max-width: 1250px;
+        margin: 0 auto;
+
+        .row {
+          margin-bottom: 1.5rem;
+
+          .field {
+            label {
+              text-transform: uppercase;
+              font-weight: 600;
+            }
+          }
+
+          @media screen and (max-width: @tablet) {
+            .field.col-2 {
+              &:nth-of-type(even) {
+                margin: .75rem 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
